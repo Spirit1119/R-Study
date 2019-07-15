@@ -1,0 +1,648 @@
+---
+title: "Speed Dating Partnership Analysis"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(readr)
+library(tidyverse)
+library(fmsb)
+library(dplyr)
+library(tibble)
+library(stringr)
+library(ggplot2)
+library(grid)
+library(gridBase)
+library(scales)
+```
+
+## 1.Data Visulization
+```{r}
+#(1)What are people looking for in their match?
+
+Speed_Dating_Data <- read_csv("Speed Dating Data 1.csv")
+
+#First, data is checked for consistency since some of the participants will place the ranks differently than others (on a 1-10 scale compared to using a distribution of 100 points). 
+
+#take related attributes with iid and gender into new data frame
+
+at11<-
+Speed_Dating_Data%>%
+  group_by(gender) %>%
+  select(iid, gender, attr1_1, sinc1_1, intel1_1, fun1_1, amb1_1, shar1_1) %>% 
+  unique()
+
+#Next, we would like to turn all NA into 0, but before this, we check if any entries in iid or gender is NA to prevent mislabels
+
+sum(is.na(at11$iid))
+sum(is.na(at11$gender))
+
+#Apply command to chnage all NA to 0
+
+at11[is.na(at11)] <- 0
+
+#Add column to check if total of attributions add up to 100
+
+at11$total <- rowSums(at11[,c("attr1_1", "sinc1_1", "intel1_1", "fun1_1", "amb1_1", "shar1_1")])
+
+table(at11$total)
+
+#A total of 0 means all entries are missing and row is dropped
+
+at11<-
+at11 %>% 
+  filter(!total == "0")
+
+#As there are entry errors in the data, all points are redistributed and curved to fit 100 total points
+
+at11$attr1_1 <- round(at11$attr1_1/at11$total*100, digits = 2)
+at11$sinc1_1 <- round(at11$sinc1_1/at11$total*100, digits = 2)
+at11$intel1_1 <- round(at11$intel1_1/at11$total*100, digits = 2)
+at11$fun1_1 <- round(at11$fun1_1/at11$total*100, digits = 2)
+at11$amb1_1 <- round(at11$amb1_1/at11$total*100, digits = 2)
+at11$shar1_1 <- round(at11$shar1_1/at11$total*100, digits = 2)
+
+at11$total <- rowSums(at11[,c("attr1_1", "sinc1_1", "intel1_1", "fun1_1", "amb1_1", "shar1_1")])
+
+at11$total <- round(at11$total, digits = 0)
+table(at11$total)
+
+```
+
+```{r}
+#Next, data is visualized using a radar chart
+
+test1 <-
+at11 %>%
+  group_by(gender) %>%
+  summarise(Attractive = mean(attr1_1), Sincere = mean(sinc1_1), Intelligent = mean(intel1_1), Fun = mean(fun1_1), Ambitious = mean(amb1_1), Interest = mean(shar1_1))
+
+test1forplot <-
+test1 %>% 
+  select(-gender)
+ 
+maxmin <- data.frame(
+ Attractive = c(36, 0),
+ Sincere = c(36, 0),
+ Intelligent = c(36, 0),
+ Fun = c(36, 0),
+ Ambitious = c(36, 0),
+ Interest = c(36, 0))
+
+test11 <- rbind(maxmin, test1forplot)
+
+test11male <- test11[c(1,2,4),]
+test11female <- test11[c(1,2,3),]
+
+radarchart(test11,
+           pty = 32,
+           axistype = 0,
+           pcol = c(adjustcolor("hotpink1", 0.5), adjustcolor("cadetblue2", 0.5)),
+           pfcol = c(adjustcolor("hotpink1", 0.5), adjustcolor("cadetblue2", 0.5)),
+           plty = 1,
+           plwd = 3,
+           cglty = 1,
+           cglcol = "gray88",
+           centerzero = TRUE,
+           seg = 5,
+           vlcex = 0.75,
+           palcex = 0.75)
+
+legend("topleft", 
+       c("Male", "Female"),
+       fill = c(adjustcolor("cadetblue2", 0.5), adjustcolor("hotpink1", 0.5)))
+
+```
+```{r, data clean, include = FALSE}
+# (Whether people really know what they want (Male/Female's Stated Interest Compared to Actual Influence on Decision)
+#rename for easier data manipulation
+#Ratings by other ppl 
+at00 <-
+Speed_Dating_Data %>%
+  select(iid, pid, dec, gender, attr, sinc, intel, fun, amb, shar, like, prob) %>% 
+  filter(!pid == "NA")
+
+#drop rows where all attributes were rated NA (col 4-9)
+#Since in the instructions it clearly outlined that not attributes will be discussed during
+#the couple's meetings, we cannot do a full NA drop in the data. The workaround here is we will assign all NA values to 1000, and drop the rows if all the attributes add up to 6000. Rows with 1 or 2 NAs will add up to be less than 6000 and will not be dropped. Finally the rows with 1000 will be converted back to NA.
+
+at00[is.na(at00)] <- 1000
+
+at00$total <- rowSums(at00[,c("attr", "sinc", "intel", "fun", "amb", "shar")])
+
+at00 <-
+at00 %>% 
+  filter(!total == "6000")
+
+at00[at00 == "1000"] <- NA
+
+at00$total <- rowSums(at00[,c("attr", "sinc", "intel", "fun", "amb", "shar")], na.rm=TRUE)
+
+table(at00$total)
+
+#A total of 0 means all entries are 0, which constitutes missing data and row is dropped
+
+at00 <-
+at00 %>% 
+  filter(!total == "0")
+
+#Finally, it is important to realize that the attributes are evaluated for the opposite gender.
+#Another column for the partner is generated
+
+at00 <-
+at00 %>% 
+  mutate(pgender = ifelse(gender == 0, 1, 0))
+
+```
+
+```{r, Data Clean 2, include = FALSE}
+#What are you looking for in your match?
+
+#First, data is checked for consistency since some of the participants will place the ranks differently than others (on a 1-10 scale compared to using a distribution of 100 points). 
+
+#take related attributes with iid and gender into new data frame
+
+at11<-
+Speed_Dating_Data %>%
+  group_by(gender) %>%
+  select(iid, gender, attr1_1, sinc1_1, intel1_1, fun1_1, amb1_1, shar1_1) %>% 
+  unique()
+
+#Next, we would like to turn all NA into 0, but before this, we check if any entries in iid or gender is NA to prevent mislabels
+
+sum(is.na(at11$iid))
+sum(is.na(at11$gender))
+
+#Apply command to chnage all NA to 0
+
+at11[is.na(at11)] <- 0
+
+#Add column to check if total of attributions add up to 100
+
+at11$total <- rowSums(at11[,c("attr1_1", "sinc1_1", "intel1_1", "fun1_1", "amb1_1", "shar1_1")])
+
+table(at11$total)
+
+#A total of 0 means all entries are missing and row is dropped
+
+at11<-
+at11 %>% 
+  filter(!total == "0")
+
+#As there are entry errors in the data, all points are redistributed and curved to fit 100 total points
+
+at11$attr1_1 <- round(at11$attr1_1/at11$total*100, digits = 2)
+at11$sinc1_1 <- round(at11$sinc1_1/at11$total*100, digits = 2)
+at11$intel1_1 <- round(at11$intel1_1/at11$total*100, digits = 2)
+at11$fun1_1 <- round(at11$fun1_1/at11$total*100, digits = 2)
+at11$amb1_1 <- round(at11$amb1_1/at11$total*100, digits = 2)
+at11$shar1_1 <- round(at11$shar1_1/at11$total*100, digits = 2)
+
+at11$total <- rowSums(at11[,c("attr1_1", "sinc1_1", "intel1_1", "fun1_1", "amb1_1", "shar1_1")])
+
+at11$total <- round(at11$total, digits = 0)
+table(at11$total)
+
+```
+
+```{r, data organization n, include = FALSE}
+
+test2 <-
+at00 %>%
+  group_by(pid, pgender) %>%
+  summarise(Decision = mean(dec), Attractive = mean(attr), Sincere = mean(sinc), Intelligent = mean(intel), Fun = mean(fun), Ambitious = mean(amb), Interest = mean(shar))
+
+test2a <-
+test2 %>% 
+  select(pid, pgender, Decision, Attractive) %>% 
+  filter(!Attractive == "NA")
+
+test2b <-
+test2 %>% 
+  select(pid, pgender, Decision, Sincere) %>% 
+  filter(!Sincere == "NA")
+
+test2c <-
+test2 %>% 
+  select(pid, pgender, Decision, Intelligent) %>% 
+  filter(!Intelligent == "NA")
+
+test2d <-
+test2 %>% 
+  select(pid, pgender, Decision, Fun) %>% 
+  filter(!Fun == "NA")
+
+test2e <-
+test2 %>% 
+  select(pid, pgender, Decision, Ambitious) %>% 
+  filter(!Ambitious == "NA")
+
+test2f <-
+test2 %>% 
+  select(pid, pgender, Decision, Interest) %>% 
+  filter(!Interest == "NA")
+
+coratr <- cor(test2a$Decision, test2a$Attractive)
+corsin <- cor(test2b$Decision, test2b$Sincere)
+corint <- cor(test2c$Decision, test2c$Intelligent)
+corfun <- cor(test2d$Decision, test2d$Fun)
+coramb <- cor(test2e$Decision, test2e$Ambitious)
+corshar <- cor(test2f$Decision, test2f$Interest)
+test2am <-
+test2 %>% 
+  select(pid, pgender, Decision, Attractive) %>% 
+  filter(!Attractive == "NA") %>% 
+  filter(pgender == "1")
+
+test2af <-
+test2 %>% 
+  select(pid, pgender, Decision, Attractive) %>% 
+  filter(!Attractive == "NA") %>% 
+  filter(pgender == "0")
+
+cormatr <- cor(test2am$Decision, test2am$Attractive)
+corfatr <- cor(test2af$Decision, test2af$Attractive)
+
+test2bm <-
+test2 %>% 
+  select(pid, pgender, Decision, Sincere) %>% 
+  filter(!Sincere == "NA") %>% 
+  filter(pgender == "1")
+
+test2bf <-
+test2 %>% 
+  select(pid, pgender, Decision, Sincere) %>% 
+  filter(!Sincere == "NA") %>% 
+  filter(pgender == "0")
+  
+cormsin <- cor(test2bm$Decision, test2bm$Sincere)
+corfsin <- cor(test2bf$Decision, test2bf$Sincere)
+
+test2cm <-
+test2 %>% 
+  select(pid, pgender, Decision, Intelligent) %>% 
+  filter(!Intelligent == "NA") %>% 
+  filter(pgender == "1")
+
+test2cf <-
+test2 %>% 
+  select(pid, pgender, Decision, Intelligent) %>% 
+  filter(!Intelligent == "NA") %>% 
+  filter(pgender == "0")
+
+cormint <- cor(test2cm$Decision, test2cm$Intelligent)
+corfint <- cor(test2cf$Decision, test2cf$Intelligent)
+
+corint
+
+test2dm <-
+test2 %>% 
+  select(pid, pgender, Decision, Fun) %>% 
+  filter(!Fun == "NA") %>% 
+  filter(pgender == "1")
+
+test2df <-
+test2 %>% 
+  select(pid, pgender, Decision, Fun) %>% 
+  filter(!Fun == "NA") %>% 
+  filter(pgender == "0")
+
+cormfun <- cor(test2dm$Decision, test2dm$Fun)
+corffun <- cor(test2df$Decision, test2df$Fun)
+
+test2em <-
+test2 %>% 
+  select(pid, pgender, Decision, Ambitious) %>% 
+  filter(!Ambitious == "NA") %>% 
+  filter(pgender == "1")
+
+test2ef <-
+test2 %>% 
+  select(pid, pgender, Decision, Ambitious) %>% 
+  filter(!Ambitious == "NA") %>% 
+  filter(pgender == "0")
+
+cormamb <- cor(test2em$Decision, test2em$Ambitious)
+corfamb <- cor(test2ef$Decision, test2ef$Ambitious)
+
+test2fm <-
+test2 %>% 
+  select(pid, pgender, Decision, Interest) %>% 
+  filter(!Interest == "NA") %>% 
+  filter(pgender == "1")
+
+test2ff <-
+test2 %>% 
+  select(pid, pgender, Decision, Interest) %>% 
+  filter(!Interest == "NA") %>% 
+  filter(pgender == "0")
+
+cormshar <- cor(test2fm$Decision, test2fm$Interest)
+corfshar <- cor(test2ff$Decision, test2ff$Interest)
+```
+
+```{r}
+corforgraph2 <-data.frame(Traits = c("Average", "Male", "Female"),
+                          corAttractive = c(coratr, cormatr, corfatr),
+                          corSincere = c(corsin, cormsin, corfsin),
+                          corIntelligence = c(corint, cormint, corfint),
+                          corFun = c(corfun, cormfun, corffun),
+                          corAmbitious = c(coramb, cormamb, corfamb),
+                          corInterest = c(corshar, cormshar, corfshar))
+fin <- corforgraph2
+
+fin$total <- rowSums(fin[,c("corAttractive", "corSincere", "corIntelligence", "corFun", "corAmbitious", "corInterest")])
+
+fin$corAttractive <- round(fin$corAttractive/fin$total*100, digits = 2)
+fin$corSincere <- round(fin$corSincere/fin$total*100, digits = 2)
+fin$corIntelligence <- round(fin$corIntelligence/fin$total*100, digits = 2)
+fin$corFun <- round(fin$corFun/fin$total*100, digits = 2)
+fin$corAmbitious <- round(fin$corAmbitious/fin$total*100, digits = 2)
+fin$corInterest <- round(fin$corInterest/fin$total*100, digits = 2)
+
+fin <-
+fin %>% 
+  select(corAttractive, corSincere, corIntelligence, corFun, corAmbitious, corInterest)
+
+colnames(fin) <- c("Attractive","Sincere", "Intelligent", "Fun", "Ambitious", "Interest")
+testn <- rbind(maxmin, fin, test1forplot)
+
+```
+
+```{r}
+testnmale <- testn[-c(3, 4, 6), ]
+testnfemale <- testn[-c(3, 5, 7), ] 
+
+radarchart(testnmale,
+           pty = 32,
+           axistype = 0,
+           pcol = c(adjustcolor("chartreuse1", 0.5), adjustcolor("cadetblue2", 0.5)),
+           pfcol = c(adjustcolor("chartreuse1", 0.5), adjustcolor("cadetblue2", 0.5)),
+           plty = 1,
+           plwd = 3,
+           cglty = 1,
+           cglcol = "gray88",
+           centerzero = TRUE,
+           seg = 5,
+           vlcex = 0.75,
+           palcex = 0.75,
+           title = "Male's Stated Interest Compared to Actual Influence on Decision")
+
+legend("topleft", 
+       c("Stated Interest", "Actual Influence"),
+       fill = c(adjustcolor("cadetblue2", 0.5), adjustcolor("chartreuse1", 0.5)))
+
+radarchart(testnfemale,
+           pty = 32,
+           axistype = 0,
+           pcol = c(adjustcolor("darkorchid1", 0.5), adjustcolor("hotpink1", 0.5)),
+           pfcol = c(adjustcolor("darkorchid1", 0.5), adjustcolor("hotpink1", 0.5)),
+           plty = 1,
+           plwd = 3,
+           cglty = 1,
+           cglcol = "gray88",
+           centerzero = TRUE,
+           seg = 5,
+           vlcex = 0.75,
+           palcex = 0.75,
+           title = "Female's Stated Interest Compared to Actual Influence on Decision")
+
+legend("topleft", 
+       c("Stated Interest", "Actual Influence"),
+       fill = c(adjustcolor("hotpink1", 0.5), adjustcolor("darkorchid1", 0.5)))
+
+
+```
+
+## 2.Data set collection
+```{r}
+#setwd()
+rm(list = ls())
+Speed_Dating_Data <- read_csv("Speed Dating Data 1.csv")
+data = Speed_Dating_Data[,c("iid","gender","pid","match","int_corr","samerace",
+                      "attr_o","sinc_o","intel_o","fun_o","amb_o","shar_o","like_o",
+                      "age","field_cd","race","imprace","from","goal",
+                      "date","go_out","attr1_1","sinc1_1","intel1_1","fun1_1",
+                      "amb1_1","shar1_1","match_es")]
+class(data$match) <- "character"
+#check how many NAs in each column
+for (i in colnames(data)) {
+  print(paste(i,sum(is.na(data[,c(i)]))))
+}
+```
+
+### the ways to deal with missing value
+```{r}
+# Just omit
+nrow(na.omit(data))   #after omitting na, 5735 rows left.
+a = na.omit(data)
+```
+
+## 3. Data Cleaning
+### 3.1 Partner-rated attributes score
+```{r}
+#Calculate the mean of partner-rated attributes score
+b = aggregate(a[,c("attr_o","sinc_o","intel_o",
+                   "fun_o","amb_o","shar_o","like_o")], list(a$iid), mean)
+
+#combine dataframe
+a[,c("attr_o","sinc_o","intel_o","fun_o","amb_o","shar_o","like_o")] = NULL
+names(b) = c("iid","attr_m","sinc_m","intel_m","fun_m","amb_m","shar_m","like_m")
+a = merge(a,b,by="iid")
+
+```
+
+### 3.2 Region
+```{r}
+#precleaned in excel file
+```
+
+### 3.3 Most valued attributes
+```{r}
+#Calculate the most valued attributes
+a$max1 = NA
+a$max2 = NA
+for (i in 1:nrow(a)) {
+  a[i,"max1"] =order(a[i,c("attr1_1","sinc1_1","intel1_1",
+            "fun1_1","amb1_1","shar1_1")], decreasing = T)[1]
+  a[i,"max2"] =order(a[i,c("attr1_1","sinc1_1","intel1_1",
+            "fun1_1","amb1_1","shar1_1")], decreasing = T)[2]
+}
+a[,c("attr1_1","sinc1_1","intel1_1",
+     "fun1_1","amb1_1","shar1_1")] = NULL
+#write.csv(a,file = "cleaned.csv")
+```
+*The number in column max1,2 stands for 1-attr, 2-sinc, 3-intel, 4-fun, 5-amb, 6-shar.*
+
+## 4. Descriptive Analysis
+```{r}
+library(tidyr)
+library(ggplot2)
+
+#interest correlation vs match 
+a%>%
+    filter(gender == "0")%>%
+    ggplot(aes(x = match,y = int_corr))+geom_boxplot()
+a%>%
+    filter(gender == "1")%>%
+    ggplot(aes(x = match,y = int_corr))+geom_boxplot()
+fit <- aov(match ~ int_corr, data=a)
+summary(fit)
+#(there is significant difference of the interest corrlation between match or not; higher correlation tends to have higher match probability.)
+
+#samerace vs match & gender
+a%>%
+    ggplot(aes(x = match,y = samerace))+geom_count()
+fit2 <- aov(match ~ samerace, data=a)
+summary(fit2)
+#(same race or not won't effect the match success rate)
+
+#attribute vs match & gender
+#done by excel, represent as radar chart
+
+#max attribute vs gender
+tb1 <- a%>% filter(gender=='0')
+  table(tb1$max1)
+  table(tb1$max2)
+tb2 <- a%>% filter(gender=='1')
+  table(tb2$max1)
+  table(tb2$max2)
+
+#age vs match & gender
+ggplot(a,aes(match,age))+
+            geom_violin()
+fit3 <- aov(match~age,data = a)
+class(a$match) <- "character"
+class(a$match)
+summary(fit3)
+#age doesn't effect match rate
+
+#race & occupation (field) vs match & gender
+#done by tableu & excel
+
+class(a$match) <- "numeric"
+```
+
+## 5. Analysis of Demography
+### 5.1 Cleaned the data for demography analysis
+```{r}
+# different iid represent different people, only keep 1 record for each iid
+# Remove duplicates based on iid columns
+Dem_data = data[!duplicated(data$iid), ]
+Dem_data$match = as.factor(Dem_data$match)
+```
+
+### 5.2 Use all the cleaned demography data and see general results
+```{r}
+colnames(Dem_data)
+
+# Demography indicators include: race, age, field of career, imprace, goal, date and go out.
+glm_general <- glm(match~samerace+age+field_cd+race+goal+date+go_out, data = Dem_data, family = "binomial")
+
+summary(glm_general)
+# Use "match" as target, only date and go_out are statistically significant.
+```
+
+### 5.3 Change the numeric data into factor and do specific logit regression
+```{r}
+# Change the numeric data into factor
+c <- transform(Dem_data,field_cd = as.factor(field_cd), race = as.factor(race), goal = as.factor(goal), date = as.factor(date), go_out = as.factor(go_out))
+
+glm_date = glm(match~ date,data=c,family = "binomial")
+summary(glm_date)
+# date 5, 6, 7 are significant
+
+glm_go_out <- glm(match~go_out, data=c, family = "binomial")
+summary(glm_go_out)
+# go out = 1 is significant.
+```
+
+### 5.4 Classification tree
+```{r}
+library(rpart)
+library(rpart.plot)
+ct_Dem_model <- rpart(match~race+age+imprace+field_cd+goal+date+go_out,data= c,
+                      method="class", control = rpart.control(maxdepth = 7))
+rpart.plot(ct_Dem_model)
+plotcp(ct_Dem_model)
+printcp(ct_Dem_model)
+```
+
+## 6. Analysis for random matching
+### 6.1 dataset 
+```{r}
+n = a[1,7:24]
+newname = paste("p_",names(n), sep = "")
+p = setNames(data.frame(matrix(ncol = 18, nrow = 0)), newname)
+data2 = setNames(data.frame(matrix(ncol = 42,nrow = 0)),c(names(a),newname))
+for (i in 1:nrow(a)) {
+    partner_id = a[i,"pid"]
+    p[i,] = a[a$iid==partner_id,][1,7:24]
+}
+data2 = na.omit(cbind(a,p))
+data2 = data2[data2$gender=="0",]
+data2$max_match = ifelse(data2$max1==data2$p_max1,1,0)
+```
+
+### 5.2 classification tree
+```{r}
+set.seed(1)   # set a random seed 
+index <- sample(nrow(data2), nrow(data2)*0.2) # random selection of indices. 
+test <- data2[index,]       # save 20% as a test dataset
+training <-data2[-index,]   
+```
+
+```{r}
+library(rpart)
+library(rpart.plot)
+ct_model<-
+  rpart(match~max_match+gender+race+imprace+int_corr+samerace+field_cd+goal+date+attr_m+sinc_m+intel_m+fun_m+amb_m+shar_m+like_m+max1+max2+p_age+p_field_cd+p_race+p_imprace+p_goal+p_date+p_match_es+p_attr_m+p_sinc_m+p_intel_m+p_fun_m+p_amb_m+p_shar_m+p_like_m+p_max1+p_max2,
+        data=training,
+        method="class",
+        control = rpart.control(cp=0))
+rpart.plot(ct_model)
+printcp(ct_model)
+plotcp(ct_model)
+```
+
+```{r}
+#find the best tree with lowest xerror
+#min_xerror_tree<-ct_model$cptable[which.min(ct_model$cptable[,"xerror"]),]
+#min_xerror_tree
+#min_xerror_tree<-prune(ct_model, cp=min_xerror_tree[1])
+#rpart.plot(min_xerror_tree)
+#the problem here is that the best is when nsplit=0, making the tree invalid
+
+#just use cp that is close to the smallest xerror
+ct_model<-
+  rpart(match~max_match+gender+race+imprace+int_corr+samerace+field_cd+goal+date+attr_m+sinc_m+intel_m+fun_m+amb_m+shar_m+like_m+max1+max2+p_age+p_field_cd+p_race+p_imprace+p_goal+p_date+p_match_es+p_attr_m+p_sinc_m+p_intel_m+p_fun_m+p_amb_m+p_shar_m+p_like_m+p_max1+p_max2,
+        data=training,
+        method="class",
+        control = rpart.control(cp=0.00829493))
+```
+
+###5.3 CT quality exam
+```{r}
+#choose the threshold
+for (i in 10:90) {
+  i = i/100
+  test$ct_pred_prob<-predict(ct_model,test)[,2]
+  test$ct_pred_class=ifelse(test$ct_pred_prob>i,"Yes","No")
+  table <- table(test$ct_pred_class,test$match, dnn=c("predicted","actual")) 
+#  print(table)
+  print(paste(i,(table[1]+table[4])/493))
+}
+#so when threshold = 0.5 (0.36-0.65), the prediction has highest correct rate, at 81.94%.
+```
+
+```{r}
+library(pROC)
+ct_roc<-roc(test$match,test$ct_pred_prob,auc=TRUE)
+plot(ct_roc,print.auc=TRUE,col="blue")
+```
+
