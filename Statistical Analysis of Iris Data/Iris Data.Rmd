@@ -1,0 +1,216 @@
+---
+title: "Iris Data"
+output:
+  pdf_document: default
+  word_document: default
+date: "May 2, 2019"
+---
+
+```{r setup, include=true}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 0. Load Data and Libraries
+```{r}
+data(iris)
+library(ggplot2)
+library(gridExtra)
+library(ggplot2)
+library(cowplot)
+library(dplyr)
+library(grid)
+library(ICSNP)
+library(VGAM)
+library(car)
+library(openxlsx)
+# setwd() set the work directionary accordingly
+
+SL=iris$Sepal.Length
+SW=iris$Sepal.Width
+PL=iris$Petal.Length
+PW=iris$Petal.Width
+Species=iris$Species
+```
+
+# 1. Exploratory Analysis
+```{r}
+head(iris)
+data_sample = some(iris)
+# write the result in excel file
+# write.xlsx(data_sample, 'irisdata.xlsx') 
+```
+
+## 1.1 Boxplots
+```{r}
+irisVer <- subset(iris, Species == "versicolor")
+irisSet <- subset(iris, Species == "setosa")
+irisVir <- subset(iris, Species == "virginica")
+par(mfrow=c(1,3),mar=c(6,3,2,1))
+boxplot(irisSet[,1:4], main="Setosa",ylim = c(0,8),las=2)
+boxplot(irisVer[,1:4], main="Versicolor",ylim = c(0,8),las=2)
+boxplot(irisVir[,1:4], main="Virginica",ylim = c(0,8),las=2)
+```
+
+## 1.2 Histograms
+
+### 1.2.1 Sepal. Length
+```{r}
+par(mfrow=c(1,3))
+hist(irisVer$Sepal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisSet$Sepal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisVir$Sepal.Length,xlim=c(0,8),ylim=c(0,20))
+```
+
+### 1.2.2 Sepal.Width
+```{r}
+par(mfrow=c(1,3))
+hist(irisVer$Sepal.Width,xlim=c(0,8),ylim=c(0,20))
+hist(irisSet$Sepal.Width,xlim=c(0,8),ylim=c(0,20))
+hist(irisVir$Sepal.Width,xlim=c(0,8),ylim=c(0,20))
+```
+
+### 1.2.3 Petal.Length
+```{r}
+par(mfrow=c(1,3))
+hist(irisVer$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisSet$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisVir$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+```
+
+### 1.2.4 Petal.Width
+```{r}
+par(mfrow=c(1,3))
+hist(irisVer$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisSet$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+hist(irisVir$Petal.Length,xlim=c(0,8),ylim=c(0,20))
+```
+
+## 1.3 Scatterplots
+```{r}
+# If we want to find out which characteristics are most distinguishing between iris plants, we have to make many individual plots and hope we can see distinguishing patterns:
+p1 <- ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, color=Species)) + geom_point()
+p2 <- ggplot(iris, aes(x=Petal.Length, y=Petal.Width, color=Species)) + geom_point()
+p3 <- ggplot(iris, aes(x=Sepal.Length, y=Petal.Length, color=Species)) + geom_point()
+p4 <- ggplot(iris, aes(x=Sepal.Width, y=Petal.Width, color=Species)) + geom_point()
+plot_grid(p1, p2, p3, p4, labels = "AUTO")
+```
+
+
+# 2. Covariance-based Principal Components Analysis
+## 2.1 Preparation and Calculation
+```{r}
+# Treating y = (SL, SW, PL, PW)> as the response vector, and ignoring the Species factor for the moment, perform a covariance-based PCA.
+
+# The basic steps in PCA are to (i) prepare a data frame that holds only the numerical columns of interest, (ii) scale the data to 0 mean and unit variance, and (iii) do the PCA with the function prcomp()
+
+iris %>% select(-Species) %>% # remove Species column
+  scale(FALSE) %>%            # covariance-based
+  prcomp(TRUE) ->            # do PCA ()
+  pca_cov                     # store result as `pca_cov`
+
+# now display the results from the PCA analysis
+pca_cov
+names(pca_cov)
+
+# save the result in excel
+# write.xlsx(pca_cov,"pca_cov.xlsx")
+Eigenvalues_cov <- eigen(cov(iris[1:4]))
+Eigenvalues_cov
+```
+
+## 2.2 Scatterplots of PC Scores.
+```{r}
+#Comment on the plots. Do they all appear to exhibit random scatter? Or do any suggest the presence of structure? Discuss.
+pca_cov_data <- data.frame(pca_cov$x, Species=iris$Species)
+pairs(pca_cov_data[1:4])
+```
+
+## 2.3 Scree Plot
+```{r}
+# discuss how many PCs it would be sensible to retain.
+screeplot(pca_cov,type = "line")
+```
+
+# 2.4 PC Scores Comparison
+Describe the resulting plot in words. Obtain scatterplots for other pairs of PC scores. Discuss and summaries your findings.
+```{r}
+# plot the PC scores associated with the PC1 against the PC2 using the command
+
+p1 <- ggplot(pca_cov_data, aes(x=PC1, y=PC2, color=Species)) + geom_point()
+p2 <- ggplot(pca_cov_data, aes(x=PC1, y=PC3, color=Species)) + geom_point()
+p3 <- ggplot(pca_cov_data, aes(x=PC1, y=PC4, color=Species)) + geom_point()
+p4 <- ggplot(pca_cov_data, aes(x=PC2, y=PC3, color=Species)) + geom_point()
+p5 <- ggplot(pca_cov_data, aes(x=PC2, y=PC4, color=Species)) + geom_point()
+p6 <- ggplot(pca_cov_data, aes(x=PC3, y=PC4, color=Species)) + geom_point()
+plot_grid(p1, p2, p3, p4, p5,p6, nrow = 3)
+```
+
+# 3. Correlation-based PCA
+Now perform a correlation-based PCA, performing similar calculations to those indicated in Sections 2.
+
+## 3.1 Preparation and Calculation
+```{r}
+# The basic steps in PCA are to (i) prepare a data frame that holds only the numerical columns of interest, (ii) scale the data to 0 mean and unit variance, and (iii) do the PCA with the function prcomp()
+
+iris %>% select(-Species) %>% # remove Species column
+  scale(TRUE) %>%             # correlation-based (TRUE)
+  prcomp() ->                 # do PCA 
+  pca_cor                     # store result as `pca_cor`
+
+# now display the results from the PCA analysis
+pca_cor
+
+# save the result in excel
+# write.xlsx(pca_cor,"pca_cor.xlsx")
+
+Eigenvalues_cor <- eigen(cor(iris[1:4]))
+Eigenvalues_cor
+```
+## 3.2 Scatterplots of PC Scores.
+```{r}
+#Comment on the plots. Do they all appear to exhibit random scatter? Or do any suggest the presence of structure? Discuss.
+pca_cor_data <- data.frame(pca_cor$x, Species=iris$Species)
+pairs(pca_cor_data[1:4])
+```
+
+## 3.3 Scree Plot
+```{r}
+# discuss how many PCs it would be sensible to retain.
+screeplot(pca_cor, type = "line")
+```
+
+# 3.4 PC Scores Comparison
+Describe the resulting plot in words. Obtain scatterplots for other pairs of PC scores. Discuss and summaries your findings.
+```{r}
+# plot the PC scores associated with the PC1 against the PC2 using the command
+pp1 <- ggplot(pca_cor_data, aes(x=PC1, y=PC2, color=Species)) + geom_point()
+pp2 <- ggplot(pca_cor_data, aes(x=PC1, y=PC3, color=Species)) + geom_point()
+pp3 <- ggplot(pca_cor_data, aes(x=PC1, y=PC4, color=Species)) + geom_point()
+pp4 <- ggplot(pca_cor_data, aes(x=PC2, y=PC3, color=Species)) + geom_point()
+pp5 <- ggplot(pca_cor_data, aes(x=PC2, y=PC4, color=Species)) + geom_point()
+pp6 <- ggplot(pca_cor_data, aes(x=PC3, y=PC4, color=Species)) + geom_point()
+plot_grid(pp1, pp2, pp3, pp4, pp5,pp6, nrow = 3)
+```
+
+# 4. 
+```{r}
+# Discuss the similarities and differences of the covariance-based and correlation-based approaches for performing PCA on the Iris dataset. Which of these two approaches, if either, do you think is preference for the Iris dataset?
+```
+
+# 5. Hotelling's T-square Statistic
+```{r}
+# Compare the species pairwise using Hotelling's T2 statistic.
+irisSet=irisSet[1:4]
+irisVer=irisVer[1:4]
+irisVir=irisVir[1:4]
+HotellingsT2(irisSet,irisVer)
+HotellingsT2(irisSet,irisVir)
+HotellingsT2(irisVir,irisVer)
+```
+
+# 6. Multivariate Linear Regression
+```{r}
+mod.iris <- lm(cbind(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)~ Species, data=iris)
+summary(mod.iris)
+```
+
