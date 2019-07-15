@@ -1,0 +1,1409 @@
+State,Airport,OPID,A_Type,Type_ENG,Species,Damage,AC_Mass,Num_ENGS,Month,Year,Time,Height,Speed,Phase,Sky,Precip,Birds_Seen,Birds_Struck,Size
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2018,Night,100,150,Climb,No Cloud,None,2 to 10,2 to 10,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Night,3000,210,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Day,700,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Day,500,138,Approach,No Cloud,,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2018,Night,1200,150,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,UPS,MD-11,D,Unknown bird,0,4,3,9,2018,Night,1500,160,Approach,,,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Day,,,Arrival,,,,1,
+MD,KBWI,GTI,B-767-300,D,Unknown bird,0,4,2,9,2018,Day,400,175,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,B-737-800,D,Sanderling,0,4,2,9,2018,Night,0,120,Take-off run,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Day,2500,180,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2018,Day,500,148,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2018,Day,1500,185,Climb,Overcast,None,,1,Small
+MD,KMTN,BUS,EMB-500,D,Killdeer,0,2,2,8,2018,Night,2,104,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,UCA,EMB-145,D,Unknown bird,0,3,2,8,2018,Day,2000,200,Climb,Some Cloud,None,1,1,Small
+MD,KADW,BUS,LEARJET-35,D,Unknown bird,0,3,2,8,2018,Day,,,Departure,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Day,500,136,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Day,,,Departure,,,,1,
+MD,KBWI,VTE,EMB-135,D,Unknown bird,0,3,2,8,2018,Day,,,Departure,,,,1,
+MD,KHGR,BUS,DA-20 FALCON,D,Unknown bird,0,3,2,8,2018,Day,,,Approach,,,,1,
+MD,KHGR,GAJ,BE-300 KING,C,Unknown bird,0,1,2,8,2018,Dusk,0,100,Take-off run,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2018,Night,50,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Sparrows,0,4,2,8,2018,Night,5,123,Approach,No Cloud,None,1,1,Small
+MD,KBWI,FDX,B-767-300,D,Unknown bird,0,4,2,8,2018,Dawn,350,138,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Night,100,138,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SKV,EMB-170,D,Microbats,0,4,2,8,2018,Night,100,,Approach,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2018,Day,300,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,UAL,A-319,D,Unknown bird,0,4,2,8,2018,Night,,,Approach,,,,1,
+MD,KBWI,ENY,EMB-145,D,Unknown bird,0,3,2,8,2018,Day,0,125,Take-off run,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Day,200,125,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Day,2000,180,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Day,100,140,Approach,Some Cloud,None,1,,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2018,Day,5,142,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2018,Day,300,145,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2018,Dawn,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,7,2018,Day,300,149,Approach,Overcast,,1,1,Small
+MD,KBWI,AAL,A-321,D,Unknown bird,0,4,2,7,2018,Day,1200,143,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KESN,PVT,PA-28,A,Unknown bird,0,1,1,7,2018,Day,400,90,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2018,Night,1800,155,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Chimney swift,0,4,2,7,2018,Day,0,140,Take-off run,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,7,2018,Day,50,,Approach,Overcast,None,,1,Small
+MD,KHGR,AAY,MD-80,D,Unknown bird,0,4,2,7,2018,Day,400,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,ASA,B-737-800,D,Mourning dove,0,4,2,7,2018,Day,0,,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2018,Day,13000,280,Descent,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2018,Day,0,90,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-800,D,Sparrows,0,4,2,7,2018,Day,10,146,Approach,No Cloud,None,1,1,Small
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,7,2018,Day,,,Approach,Some Cloud,None,,1,
+MD,KBWI,UAL,B-737-900,D,European starling,0,4,2,7,2018,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,DAL,A-320,D,Chimney swift,0,4,2,6,2018,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,UAL,EMB-145,D,Unknown bird,0,3,2,6,2018,Night,,,Approach,No Cloud,None,,1,
+MD,KBWI,SOO,C-208,C,Unknown bird,0,2,1,5,2018,Day,,,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,FDY,C-208,C,Unknown bird,0,2,1,5,2018,Day,0,50,Landing Roll,Overcast,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2018,,0,140,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KFDK,BUS,C-172,A,Unknown bird,0,1,1,5,2018,Night,100,70,Approach,No Cloud,None,,1,Small
+MD,KBWI,FDX,A-321,D,Unknown bird,0,4,2,5,2018,,4000,210,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2018,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,JBU,A-320,D,Unknown bird,0,4,2,5,2018,Night,1100,,Approach,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,4,2018,Day,0,100,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2018,Night,4200,230,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,4,2018,,3000,210,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2018,Night,4000,220,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2018,Night,3000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Bufflehead,1,4,2,4,2018,Night,2000,200,Climb,Some Cloud,None,1,1,Large
+MD,KGAI,PVT,C-172,A,White-tailed deer,1,1,1,3,2018,Night,0,45,Landing Roll,No Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,3,2018,Night,600,143,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Canada goose,1,4,2,3,2018,Day,2000,210,Approach,Some Cloud,None,11 to 100,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2018,Day,200,130,Approach,No Cloud,None,1,1,Small
+MD,KMTN,UNK,C-172,A,Red fox,0,1,1,2,2018,Day,0,,Take-off run,Some Cloud,None,2 to 10,,Large
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,11,2017,Day,50,180,Climb,No Cloud,None,11 to 100,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,11,2017,,0,,Take-off run,,,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,11,2017,,4000,,Climb,,,1,1,Large
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,11,2017,Night,2800,180,Approach,,,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,11,2017,Night,2500,210,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Horned lark,0,4,2,11,2017,Day,0,,Take-off run,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2017,Day,3000,,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2017,Night,3000,190,Approach,No Cloud,None,,1,Medium
+MD,KBWI,CXP,B-737-800,D,Unknown bird,0,4,2,10,2017,Night,500,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,American kestrel,1,4,2,10,2017,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KHGR,KFS,B-737-200,D,Unknown bird,0,4,2,10,2017,Day,,,,,,,1,
+MD,KBWI,AAL,A-319,D,Mourning dove,0,4,2,10,2017,Dawn,0,,Landing Roll,Overcast,Rain,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2017,Night,1500,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2017,Night,600,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,10,2017,Day,700,,Climb,,,,1,
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,10,2017,Night,,,Arrival,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2017,Day,400,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2017,Night,4200,220,Approach,No Cloud,None,,1,Small
+MD,MD71,PHM,EC135,F,Barn swallow,0,2,2,9,2017,Day,800,70,Climb,No Cloud,,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Buff-breasted sandpiper,0,4,2,9,2017,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2017,Day,0,,Landing Roll,,,,1,
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,8,2017,Night,0,,Landing Roll,Overcast,None,,1,
+MD,KBWI,SWA,B-737-800,D,Mourning dove,0,4,2,8,2017,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2017,Night,1600,140,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2017,Night,500,150,Approach,No Cloud,,1,1,Small
+MD,KBWI,NKS,A-320,D,Mourning dove,0,4,2,8,2017,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,EDV,CRJ100/200,D,Unknown bird,0,3,2,8,2017,Day,700,,Approach,,,,1,
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,8,2017,Night,,,Approach,Overcast,None,,1,
+MD,KBWI,SWA,B-737-800,D,Barn swallow,0,4,2,8,2017,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2017,Day,0,,Take-off run,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2017,Day,100,135,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,BUS,CRJ700,D,Unknown bird,0,4,2,8,2017,Day,0,,Landing Roll,,,,1,
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,8,2017,Day,,,Approach,,,,1,
+MD,KSBY,PDT,DHC8 DASH 8,C,Canada goose,1,3,2,8,2017,Day,0,56,Local,No Cloud,None,2 to 10,2 to 10,Large
+MD,KBWI,EJA,EMB-500,D,Unknown bird,0,2,2,7,2017,Day,,,Approach,,,,1,
+MD,KFDK,PVT,HOMEBUILT,,Unknown bird,0,1,,7,2017,Day,200,,Approach,,,2 to 10,2 to 10,
+MD,W00,BUS,C-172,A,Swallows,0,1,1,7,2017,,0,55,Take-off run,No Cloud,None,11 to 100,1,Small
+MD,KBWI,SWA,B-737-800,D,Mourning dove,0,4,2,7,2017,Dusk,5,140,Approach,No Cloud,None,2 to 10,1,Small
+MD,MD71,PHM,EC135,F,Rock pigeon,0,2,2,7,2017,Dusk,,,Parked,Some Cloud,None,,1,Small
+MD,KBWI,DAL,MD-90-30,D,Barn swallow,0,4,2,7,2017,,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,7,2017,Day,15,140,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2017,Day,0,110,Take-off run,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2017,Day,,,Departure,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2017,Day,2000,210,Climb,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2017,Day,50,138,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2017,Day,50,130,Approach,No Cloud,,2 to 10,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,6,2017,Day,2500,210,,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,6,2017,Day,,,Unknown,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,American goldfinch,0,4,2,6,2017,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Chimney swift,0,4,2,6,2017,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2017,Day,0,120,Landing Roll,Overcast,None,1,1,Small
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,6,2017,Day,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Great blue heron,0,4,2,6,2017,Day,0,,Take-off run,No Cloud,None,,1,Large
+MD,KBWI,AAL,A-319,D,Unknown bird,0,4,2,5,2017,Day,,,Departure,,,,1,Large
+MD,KBWI,CFG,B-767,D,Unknown bird,0,4,2,5,2017,Night,,,,,,,1,
+MD,KBWI,AAL,A-319,D,Unknown bird,0,4,2,5,2017,Day,300,160,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-80,D,Unknown bird,0,4,2,5,2017,Day,400,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2017,,0,,Landing Roll,Some Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2017,Night,1600,170,Approach,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2017,Day,10,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2017,Day,2000,200,Approach,No Cloud,None,11 to 100,1,Small
+MD,KBWI,AAL,A-321,D,Unknown bird,0,4,2,5,2017,Night,1800,160,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2017,Day,,,Approach,,,,1,
+MD,KBWI,DAL,A-320,D,Barn swallow,0,4,2,5,2017,Day,,,Departure,,,,1,Small
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,4,2017,Dusk,4000,250,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,4,2017,Night,5000,245,Approach,No Cloud,None,,1,Medium
+MD,KBWI,AAL,A-321,D,Unknown bird,0,4,2,4,2017,,4000,250,Approach,No Cloud,None,,1,Large
+MD,KMTN,BUS,C-172,A,Hawks,0,1,1,4,2017,Day,1000,105,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,4,2017,Day,0,,Take-off run,,,,2 to 10,
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,4,2017,Day,,,Arrival,,,,1,Small
+MD,KBWI,DAL,MD-90-30,D,American kestrel,0,4,2,3,2017,Day,,,Arrival,,,,1,Small
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,3,2017,Night,5000,250,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,3,2017,Night,4000,250,Approach,No Cloud,None,,1,
+MD,KBWI,WOW,A-321,D,Mourning dove,0,4,2,3,2017,Night,0,,Take-off run,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2017,Night,2000,170,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,2,2017,Night,,,Approach,,,,2 to 10,
+MD,KBWI,SWA,B-737-700,D,Redhead,1,4,2,2,2017,,1500,160,Approach,No Cloud,None,11 to 100,2 to 10,Large
+MD,KESN,BUS,C-172,A,Unknown bird,0,1,1,2,2017,Day,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Owls,0,4,2,2,2017,Night,10,150,Local,Some Cloud,None,,1,Medium
+MD,KSBY,BUS,PA-12,A,Bald eagle,0,1,1,2,2017,Dusk,0,55,Take-off run,No Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,2,2017,Night,2000,150,Approach,Some Cloud,None,,1,Small
+MD,KOXB,BUS,PA-31-350,A,Geese,1,2,2,1,2017,,300,120,Climb,No Cloud,None,2 to 10,2 to 10,Large
+MD,KESN,BUS,LEARJET-45,D,Geese,0,3,2,1,2017,Day,,,Approach,,,,1,Large
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,12,2016,Day,0,150,Landing Roll,Overcast,Fog,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Mourning dove,0,4,2,12,2016,Dusk,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Gulls,0,4,2,11,2016,Night,1500,140,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,11,2016,Day,,,Local,,,,1,Small
+MD,KBWI,DAL,B-757-300,D,Unknown bird,0,4,2,11,2016,,0,,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,PDT,EMB-145,D,Unknown bird,0,3,2,11,2016,,1000,,Approach,No Cloud,None,,1,Small
+MD,KBWI,FDX,DC-10-10,D,Song sparrow,0,4,3,10,2016,Night,,,Departure,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,10,2016,Night,4500,200,Approach,No Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2016,Dusk,3500,190,Approach,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757,D,Unknown bird,0,4,2,10,2016,Night,500,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Yellow-rumped warbler,0,4,2,10,2016,Night,5800,240,Climb,,,,1,Small
+MD,KBWI,SWA,B-737-800,D,Eastern meadowlark,0,4,2,10,2016,Day,50,145,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2016,Night,2500,230,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,ACA,CRJ100/200,D,Black vulture,1,3,2,10,2016,Day,990,170,Approach,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,FDX,DC-10-10,D,Gulls,0,4,3,10,2016,,200,170,Climb,No Cloud,None,1,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Day,200,130,Approach,No Cloud,None,,1,Small
+MD,KBWI,GGN,CRJ100/200,D,Cape May warbler,0,3,2,9,2016,Night,,,Approach,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Night,5000,250,Climb,No Cloud,None,,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,9,2016,,7600,170,Descent,No Cloud,None,1,1,Small
+MD,KMTN,BUS,C-172,A,Unknown bird,1,1,1,9,2016,Day,,,Approach,,None,1,1,Medium
+MD,KBWI,UPS,B-757,D,Unknown bird,0,4,2,9,2016,Dawn,1000,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Dawn,2900,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Day,1500,155,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWG,B-737-800,D,Unknown bird,0,4,2,9,2016,Day,100,,Approach,,,,1,
+MD,KBWI,JBU,A-320,D,Unknown bird,0,4,2,9,2016,Day,,,Approach,,,,1,Small
+MD,KBWI,BAW,B-787-8,D,Unknown bird,0,4,2,9,2016,Night,,,Climb,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Night,2000,190,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,A-320,D,Unknown bird,0,4,2,9,2016,Night,8500,230,Descent,No Cloud,None,,1,
+MD,KBWI,AAL,A-320,D,European starling,0,4,2,9,2016,,200,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Day,,,Landing Roll,,,,1,
+MD,KBWI,WOW,A-321,D,Canada goose,1,4,2,9,2016,Day,200,,Approach,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,AWI,CRJ100/200,D,Unknown bird,0,3,2,9,2016,Day,500,185,Climb,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Night,3000,240,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2016,Day,2300,210,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2016,Night,1500,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,AAL,A-321,D,Unknown bird,0,4,2,8,2016,Night,6000,250,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2016,Day,1500,160,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2016,Day,400,147,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2016,Dusk,5,145,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,8,2016,Day,0,,LANDING ROLL,,,,1,Small
+MD,KBWI,DAL,MD-90-30,D,Unknown bird,0,4,2,8,2016,Day,200,,Approach,,,,1,
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,8,2016,Day,,,CLIMB,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2016,Day,300,210,Climb,No Cloud,None,1,1,Small
+MD,KDMW,BUS,C-172,A,Unknown bird,0,1,1,8,2016,Night,300,70,Approach,No Cloud,None,,1,Small
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,8,2016,Day,0,,Landing Roll,,,,1,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2016,Night,2000,180,Approach,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2016,Dusk,0,140,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,7,2016,Day,10,130,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2016,Day,300,,APPROACH,,,,1,
+MD,KBWI,SWA,B-737-700,D,Grasshopper sparrow,0,4,2,7,2016,Day,,,Departure,,,,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,7,2016,Night,1000,150,Approach,Some Cloud,None,,1,Small
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,7,2016,Day,0,,Landing roll,Some Cloud,None,,2 to 10,Small
+MD,KBWI,PVT,DA-200 FALCON,D,Unknown bird,0,3,2,7,2016,Day,,,APPROACH,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Killdeer,0,4,2,7,2016,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,WOW,A-321,D,Unknown bird,0,4,2,7,2016,Day,0,,Take-off run,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,7,2016,,,,,Some Cloud,None,,1,
+MD,KBWI,AAL,A-319,D,Unknown bird,0,4,2,7,2016,Day,,,Approach,Some Cloud,None,11 to 100,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2016,Day,10,125,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737,D,Barn swallow,0,4,2,7,2016,Day,0,120,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,DAL,MD-80,D,Unknown bird,0,4,2,7,2016,Day,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2016,Day,0,100,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2016,Day,,,CLIMB,,,,1,
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,7,2016,Day,0,120,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KBWI,JBU,A-320,D,Unknown bird,0,4,2,7,2016,Day,200,,APPROACH,,,,1,Small
+MD,KFDK,PVT,C-172,A,Unknown bird,0,1,1,7,2016,Day,300,,CLIMB,,,,1,
+MD,KMTN,BUS,EMB-500,D,American kestrel,0,2,2,7,2016,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2016,Day,300,160,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2016,Day,,,Approach,Overcast,,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,7,2016,Day,0,,Take-off run,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2016,Day,,,Departure,No Cloud,None,1,2 to 10,Small
+MD,KVKX,PVT,C-172,A,Canada goose,0,1,1,6,2016,Day,0,10,Take-off run,No Cloud,None,2 to 10,2 to 10,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Day,50,170,Climb,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,,,,,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Day,,,APPROACH,,,,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,6,2016,Day,,150,Departure,Overcast,Rain,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Eastern kingbird,0,4,2,6,2016,Day,1,100,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Day,100,135,Approach,No Cloud,,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Dusk,0,,Take-off run,,,,2 to 10,Small
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,6,2016,Night,300,,APPROACH,,,,1,
+MD,KBWI,CNS,PILATUS PC12,C,European starling,0,2,1,6,2016,Day,0,89,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Day,100,140,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,6,2016,Dawn,50,150,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,European starling,0,4,2,6,2016,Dusk,200,170,Climb,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,6,2016,Day,1000,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2016,Day,,,ARRIVAL,,,,1,Small
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,6,2016,Dusk,,,,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,5,2016,Day,,,Climb,,,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,5,2016,Night,0,,Landing Roll,,,,1,
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,5,2016,Day,0,,Landing roll,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2016,Day,0,,Landing Roll,,,,1,
+MD,W29,PVT,PA-34 SENECA,A,Canada goose,0,1,2,5,2016,Day,,,Departure,,,,1,Large
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,5,2016,Day,0,,Landing roll,,,,1,
+MD,KBWI,SWA,B-737-600,D,Unknown bird,0,4,2,5,2016,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2016,Night,900,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,5,2016,Dawn,,,Climb,,,,1,Small
+MD,KBWI,NKS,A-321,D,Unknown bird,0,4,2,5,2016,Night,600,,Approach,,,,1,
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,5,2016,Day,,,Departure,,,,1,
+MD,KBWI,BUS,DA FALCON 7X,D,Heermann's gull,0,4,3,5,2016,Day,0,110,Take-off run,Overcast,Fog,1,1,Medium
+MD,KBWI,UPS,B-757-300,D,Unknown bird,0,4,2,5,2016,Night,700,160,Climb,,,,1,Small
+MD,KBWI,SWA,B-737-800,D,Red-winged blackbird,0,4,2,5,2016,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,5,2016,,400,150,Approach,No Cloud,None,1,1,Small
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,5,2016,Night,1000,140,Approach,Overcast,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2016,Day,50,150,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KHGR,AAY,MD-83,D,Unknown bird,0,4,2,5,2016,Day,,,Arrival,,,,1,
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,5,2016,Night,1300,,Approach,,,,1,Small
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,4,2016,Night,4000,190,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,4,2016,Night,0,140,,No Cloud,None,,1,Medium
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,4,2016,Night,2100,,Approach,,,,1,
+MD,KBWI,FDX,DC-10-10,D,Unknown bird,0,4,3,4,2016,Night,800,210,Climb,No Cloud,None,1,1,Medium
+MD,KMTN,BUS,EMB-500,D,Unknown bird,0,2,2,4,2016,Night,3000,230,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2016,Day,0,,Take-off run,,,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,4,2016,Day,0,100,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,4,2016,Day,0,100,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,3,2016,Day,,,Departure,,,,1,
+MD,KMTN,GOV,AGUSTA AW 139,F,Red-tailed hawk,0,3,2,3,2016,Day,200,100,Climb,No Cloud,None,,1,Medium
+MD,KBWI,DAL,A-320,D,Unknown bird,0,4,2,3,2016,Dawn,250,,Climb,,,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,3,2016,Day,0,,Landing Roll,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,2,2016,Day,,,Departure,,,,1,
+MD,KBWI,SWA,B-737-700,D,Horned lark,0,4,2,2,2016,Day,0,140,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,DAL,B-737-800,D,Unknown bird,0,4,2,1,2016,Day,,,Departure,,,,1,
+MD,KHGR,AAY,MD-83,D,Unknown bird,0,4,2,1,2016,Night,,,Departure,,,,1,
+MD,KBWI,SWA,B-737-800,D,Red-shouldered hawk,0,4,2,12,2015,Day,,,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,DAL,B-737-800,D,Common grackle,0,4,2,11,2015,Dawn,400,,Climb,No Cloud,None,11 to 100,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,11,2015,Night,900,170,Climb,,,2 to 10,2 to 10,
+MD,KBWI,AAL,DHC8 DASH 8,C,European starling,0,3,2,11,2015,Day,0,,Take-off run,Some Cloud,,2 to 10,2 to 10,Small
+MD,KFDK,BUS,MOONEY M20,A/C,Unknown bird,0,1,1,11,2015,Day,0,,Landing Roll,,,,1,
+MD,KSBY,PVT,PA-28,A,Unknown bird,1,1,1,11,2015,Night,,,Approach,,,,1,
+MD,KBWI,NKS,A-320,D,Mourning dove,0,4,2,11,2015,Day,20,130,Approach,Overcast,Rain,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2015,Day,500,130,Approach,No Cloud,None,1,1,Small
+MD,KMTN,PHM,EC135,F,Microbats,0,2,2,10,2015,Night,1000,100,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2015,Night,5000,250,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2015,Day,0,70,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,10,2015,Night,1000,150,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,10,2015,Night,3000,170,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2015,Night,100,170,Climb,No Cloud,,,1,
+MD,KESN,BUS,BE-400 BJET,D,Turkey vulture,1,2,2,10,2015,Day,20,80,Approach,No Cloud,None,1,1,Large
+MD,KESN,BUS,CITATION EXL,D,Unknown bird,0,3,2,10,2015,,0,,Landing Roll,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2015,Day,500,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,10,2015,Night,1500,210,Climb,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2015,Day,400,170,Climb,Overcast,Rain,1,1,Large
+MD,KMTN,BUS,GULFSTREAM V,D,Eastern meadowlark,0,4,2,10,2015,Day,100,150,Approach,Some Cloud,Rain,2 to 10,1,Small
+MD,KBWI,KFS,B-727-200,D,Unknown bird,0,4,3,9,2015,Day,3000,250,Climb,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2015,Day,2000,210,Climb,No Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,9,2015,Day,400,131,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2015,Day,300,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2015,Dusk,2000,170,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2015,Night,7000,250,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2015,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,8,2015,Night,1000,150,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2015,Day,200,140,Approach,No Cloud,None,1,1,
+MD,KMTN,BUS,CITATIONJET,D,European starling,1,2,2,8,2015,Day,150,150,,Some Cloud,None,Over 100,Over 100,Small
+MD,KBWI,UAL,A-319,D,Perching birds (y),0,4,2,8,2015,Night,100,,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,AAL,A-321,D,Unknown bird,0,4,2,8,2015,Day,300,,Approach,Some Cloud,None,,1,Small
+MD,KBWI,AAL,A-319,D,Unknown bird,0,4,2,8,2015,Night,10,130,Approach,Some Cloud,None,,1,Small
+MD,KBWI,DAL,MD-90-30,D,Barn swallow,0,4,2,8,2015,Day,100,,Approach,Some Cloud,None,,1,Small
+MD,KBWI,DAL,MD-90-30,D,Barn swallow,0,4,2,8,2015,Day,100,,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2015,Day,1500,220,Approach,No Cloud,None,,1,Small
+MD,KBWI,JBU,EMB-190,D,European starling,0,4,2,8,2015,Day,0,,Take-off run,Overcast,None,1,1,Small
+MD,KBWI,JBU,EMB-190,D,European starling,0,4,2,8,2015,Day,,,Climb,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2015,Day,50,130,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2015,Day,100,140,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2015,Night,500,150,Climb,No Cloud,,1,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,8,2015,,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,7,2015,Day,0,120,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737,D,European starling,0,4,2,7,2015,,100,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2015,Day,0,80,Landing Roll,Overcast,,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,7,2015,Day,0,,Landing Roll,Some Cloud,Rain,1,1,Small
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,7,2015,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,7,2015,Night,50,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,7,2015,Day,0,,Landing Roll,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2015,Day,400,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,JIA,CRJ100/200,D,Barn swallow,0,3,2,7,2015,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2015,Day,150,175,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,7,2015,Day,0,110,Landing Roll,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2015,Day,10,145,Climb,No Cloud,None,1,1,Small
+MD,KBWI,AAL,A-321,D,Horned lark,0,4,2,7,2015,Day,0,100,Take-off run,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2015,Day,20,140,Climb,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,7,2015,Day,2,140,Approach,No Cloud,None,1,2 to 10,Small
+MD,KBWI,BUS,C-560,D,Eastern meadowlark,0,1,2,7,2015,Day,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,EDV,CRJ900,D,Chimney swift,0,4,2,7,2015,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,7,2015,Day,10,125,Approach,Overcast,None,11 to 100,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2015,Day,200,140,Approach,No Cloud,None,1,1,Small
+MD,KSBY,PDT,DHC8 DASH 8,C,Unknown bird,0,3,2,7,2015,,0,,Take-off run,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2015,Day,1000,145,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2015,Night,1000,200,Climb,Some Cloud,None,,1,Small
+MD,KBWI,BUS,A-321,D,Mourning dove,0,4,2,7,2015,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,European starling,0,3,2,7,2015,Day,0,,Take-off run,Some Cloud,None,11 to 100,11-100,Small
+MD,2G4,PVT,PA-46 MALIBU,A,Turkey vulture,1,1,1,7,2015,Day,800,130,Approach,Some Cloud,None,1,1,Large
+MD,KBWI,ENY,EMB-145,D,Unknown bird,0,3,2,6,2015,Day,500,140,Approach,Overcast,,,1,Small
+MD,KBWI,FDX,DC-10-10,D,Unknown bird,0,4,3,6,2015,Night,100,143,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,European starling,0,4,2,6,2015,Day,75,180,Climb,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Mourning dove,0,4,2,6,2015,Day,0,80,Take-off run,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Mourning dove,0,4,2,6,2015,Day,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,MD-90-30,D,American kestrel,0,4,2,6,2015,,0,,Landing Roll,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2015,Day,400,136,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,6,2015,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Barn swallow,0,4,2,6,2015,Day,,,Approach,Overcast,None,,1,Small
+MD,KBWI,UPS,B-757-200,D,Mourning dove,0,4,2,6,2015,Dawn,0,,Landing Roll,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2015,Day,100,143,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2015,Day,50,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2015,Day,0,120,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,Yellow-rumped warbler,0,3,2,6,2015,Day,,,Climb,Some Cloud,Rain,,1,Small
+MD,KBWI,JZA*,DHC8 DASH 8,C,Unknown bird,0,3,2,6,2015,,,,Departure,,,,1,
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,5,2015,Night,700,111,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,JBU,EMB-190,D,Osprey,0,4,2,5,2015,Day,20,130,Approach,Some Cloud,None,,1,Large
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,5,2015,,1000,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2015,Night,3000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Red-eyed vireo,0,4,2,5,2015,Night,100,160,Climb,No Cloud,None,,1,Small
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,5,2015,Day,0,100,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2015,Day,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2015,Night,4500,250,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2015,Night,1800,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,5,2015,Night,754,140,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,BUS,BE-300 KING,C,Unknown bird,0,1,2,5,2015,Day,25,,Climb,Some Cloud,None,,1,Small
+MD,KBWI,BUS,CHALLENGER 300,D,Unknown bird,0,3,2,4,2015,Day,8000,250,Descent,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2015,Day,3000,170,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2015,Night,4000,240,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2015,Night,2850,210,Climb,No Cloud,None,,1,Small
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,4,2015,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,A-320,D,Unknown bird,0,4,2,4,2015,Day,0,,Landing Roll,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2015,Day,600,160,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2015,Day,400,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2015,Night,6000,230,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2015,Day,1800,140,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,AWE,A-319,D,Unknown bird,0,4,2,4,2015,Night,,,Approach,,,,1,
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,3,2015,Night,1200,160,Climb,Some Cloud,None,1,1,Large
+MD,MD71,PHM,EC135,F,Unknown bird,0,2,2,3,2015,Night,800,80,Approach,Some Cloud,None,,1,Small
+MD,W00,BUS,C-172,A,Unknown bird,0,1,1,2,2015,Day,10,60,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,AAL,B-737-800,D,Herring gull,1,4,2,1,2015,Day,400,150,Approach,Some Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,1,2015,Day,,,Departure,Some Cloud,None,,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Canada goose,1,4,2,12,2014,Night,3800,230,Approach,No Cloud,None,2 to 10,2 to 10,Large
+MD,KBWI,UAL,B-757-200,D,Mourning dove,1,4,2,12,2014,Day,0,,Landing Roll,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,12,2014,Night,2,145,Climb,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,JBU,EMB-190,D,Swallows,0,4,2,11,2014,Day,,,Approach,Overcast,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Sparrows,0,4,2,11,2014,Day,100,150,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,UPS,B-767-300,D,Unknown bird,0,4,2,11,2014,Night,4100,250,Climb,,,1,1,Medium
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,11,2014,,,,Approach,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2014,Day,100,160,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Common grackle,1,4,2,11,2014,Day,2500,210,Approach,No Cloud,None,11 to 100,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2014,Night,3500,200,Approach,No Cloud,None,,1,
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,10,2014,Night,4000,,Approach,,,,2 to 10,
+MD,KANP,BUS,C-152,A,Unknown bird,0,1,1,10,2014,Night,500,67,Climb,Some Cloud,None,1,1,Medium
+MD,KSBY,PDT,DHC8 DASH 8,C,Rock pigeon,0,3,2,10,2014,Night,6000,240,Approach,,,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2014,Night,2000,150,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2014,Night,700,140,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,10,2014,Day,10,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2014,Night,3000,180,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,10,2014,Night,3000,170,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,10,2014,Night,8000,250,Climb,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2014,Night,2000,190,Approach,No Cloud,None,1,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2014,Night,2500,210,Climb,No Cloud,None,1,1,Medium
+MD,KANP,PVT,HOMEBUILT,,White-tailed deer,1,1,,9,2014,Dusk,0,50,Landing Roll,No Cloud,None,2 to 10,1,Large
+MD,KBWI,NKS,A-319,D,Unknown bird,0,4,2,9,2014,Night,2000,150,Approach,No Cloud,None,1,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2014,Day,400,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2014,Day,500,136,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,9,2014,Day,1500,135,Approach,Some Cloud,Rain,,1,Small
+MD,KBWI,OAE,B-767-300,D,Unknown bird,0,4,2,9,2014,Night,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,BUS,CL-600,D,Turkey vulture,0,3,2,9,2014,Day,1000,140,Approach,Some Cloud,None,,1,Large
+MD,KBWI,AAL,MD-80,D,Unknown bird,0,4,2,9,2014,Day,300,140,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2014,Day,1500,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2014,Night,5000,230,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2014,Day,1000,190,Climb,,,1,1,Medium
+MD,KBWI,UAL,B-737-800,D,Unknown bird,0,4,2,9,2014,Night,1800,,Approach,,,,1,
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,9,2014,Day,100,,Climb,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2014,Day,200,,Approach,,,,1,
+MD,KBWI,DAL,MD-90-30,D,Bonaparte's gull,0,4,2,9,2014,Day,0,,Take-off run,Some Cloud,None,,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,8,2014,Day,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2014,Day,300,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Tree swallow,0,4,2,8,2014,Day,0,,Landing Roll,Overcast,None,1,1,Small
+MD,KHGR,BUS,PA-46 MALIBU,A,Unknown bird,1,1,1,8,2014,Day,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-600,D,Unknown bird,0,4,2,8,2014,Day,0,,Landing Roll,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2014,Night,1800,170,Approach,Overcast,Rain,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2014,Day,0,100,Landing Roll,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Sparrows,0,4,2,8,2014,Day,0,,Landing Roll,Overcast,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2014,Day,20,120,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,RPA,EMB-170,D,Unknown bird,0,4,2,7,2014,,,,Approach,,,,1,Small
+MD,KBWI,ASH,CRJ900,D,Unknown bird,0,4,2,7,2014,Day,0,,Landing Roll,,,1,1,Small
+MD,KBWI,UAL,B-737-900,D,European starling,0,4,2,7,2014,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,7,2014,Day,,,Approach,,,,1,Small
+MD,KBWI,BUS,C-560,D,Unknown bird,0,1,2,7,2014,Day,,,Approach,,,,1,
+MD,KBWI,EDV,CRJ100/200,D,Unknown bird,0,3,2,7,2014,Day,0,,Take-off run,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2014,Day,100,170,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2014,Day,,,Approach,,,,1,
+MD,KBWI,BUS,C-680,D,Mourning dove,0,3,2,7,2014,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2014,Night,400,135,Approach,No Cloud,None,,1,Small
+MD,KFDK,UNK,C-172,A,European starling,0,1,1,6,2014,Day,,,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2014,Day,0,130,Landing Roll,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2014,Day,0,,Landing Roll,,,,2 to 10,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2014,Day,1000,140,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2014,Night,1700,210,Approach,No Cloud,None,,1,
+MD,KBWI,DAL,B-757-200,D,Rock pigeon,0,4,2,6,2014,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KOXB,PVT,PA-28,A,Unknown bird,1,1,1,6,2014,Day,200,90,Climb,No Cloud,None,1,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2014,Day,0,100,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-400,D,European starling,0,4,2,6,2014,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2014,Day,800,137,Approach,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-737-700,D,Unknown bird,0,4,2,6,2014,Day,,,Departure,,,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Day,400,150,Climb,No Cloud,None,,1,Small
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,5,2014,Day,300,112,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2014,Day,150,,Approach,,,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Sparrows,0,4,2,5,2014,Day,0,100,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,5,2014,Night,3000,170,Approach,Overcast,None,,1,Large
+MD,KBWI,CHQ,EMB-145,D,Sparrows,0,3,2,5,2014,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Day,3600,250,Climb,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Day,,,Approach,,,,2 to 10,
+MD,KBWI,NKS,A-320,D,Unknown bird,0,4,2,5,2014,Night,,,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2014,Night,2200,210,Climb,Some Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2014,Night,3300,230,Approach,Some Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2014,Night,4000,240,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,5,2014,Night,,,Approach,No Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Night,4000,210,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Night,5000,210,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2014,Day,50,140,Approach,Some Cloud,None,,1,Small
+MD,KBWI,UPS,B-767-300,D,Unknown bird,0,4,2,5,2014,Day,660,136,Approach,,,1,1,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,Unknown bird,0,3,2,5,2014,Night,,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2014,Night,2000,200,Approach,No Cloud,None,,1,
+MD,KBWI,BUS,CHALLENGER 300,D,Unknown bird,1,3,2,5,2014,Night,2000,200,Approach,Some Cloud,Rain,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2014,,4000,210,Approach,No Cloud,None,,1,
+MD,KBWI,UAL,A-320,D,Gulls,0,4,2,4,2014,Day,0,,Take-off run,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Common grackle,0,4,2,3,2014,Day,400,130,Approach,No Cloud,None,Over 100,2 to 10,Small
+MD,KBWI,TRS,B-737-700,D,Canada goose,0,4,2,11,2013,Day,1500,200,Climb,No Cloud,None,1,1,Large
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,11,2013,Night,600,132,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,UAL,A-319,D,American robin,0,4,2,11,2013,Night,2000,,Approach,Some Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2013,Day,300,135,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2013,Night,2500,170,Approach,No Cloud,,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,11,2013,Night,1500,150,Approach,No Cloud,None,,1,Small
+MD,KBWI,AWE,B-757-200,D,Unknown bird,0,4,2,10,2013,Night,,,Descent,No Cloud,None,1,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,10,2013,Night,2500,220,Approach,No Cloud,None,,1,Small
+MD,KESN,BUS,LEARJET-45,D,Unknown bird,0,3,2,10,2013,Night,2500,220,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,10,2013,Day,0,90,Take-off run,No Cloud,None,11 to 100,2 to 10,Small
+MD,KHGR,BUS,BE-300 KING,C,Unknown bird,0,1,2,10,2013,Day,15300,160,Climb,No Cloud,None,,1,Small
+MD,KBWI,UAL,A-319,D,Mourning dove,0,4,2,10,2013,Dawn,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Gulls,1,4,2,10,2013,Day,700,155,Approach,No Cloud,None,11 to 100,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2013,Night,1350,200,Climb,No Cloud,None,,1,
+MD,KMTN,PHM,EC135,F,Unknown bird,0,2,2,10,2013,Night,1600,120,Climb,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2013,Night,2000,170,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,10,2013,Day,300,145,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,AWE,A-320,D,Unknown bird,0,4,2,10,2013,Night,2800,,Approach,No Cloud,None,,1,Medium
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,10,2013,Night,5500,250,Approach,No Cloud,None,,1,Medium
+MD,KHGR,BUS,PA-31 NAVAJO,A,House sparrow,0,2,2,10,2013,Day,100,130,Climb,No Cloud,None,1,1,Small
+MD,KHGR,BUS,BE-200 KING,C,Killdeer,0,2,2,9,2013,Day,200,200,Climb,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2013,Day,300,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Common nighthawk,0,4,2,9,2013,,,,Approach,,,,1,Small
+MD,KCGS,BUS,C-172,A,Unknown bird,1,1,1,9,2013,Day,800,110,Approach,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2013,Day,10,155,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,American golden-plover,0,4,2,9,2013,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2013,Day,4000,200,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2013,Day,1800,200,Approach,Overcast,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,9,2013,Day,100,,Climb,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2013,Night,30,170,Climb,No Cloud,None,1,1,Small
+MD,KFDK,BUS,CL-601/604,D,Unknown bird,0,3,2,9,2013,Day,0,120,Landing Roll,Some Cloud,None,11 to 100,1,Small
+MD,KBWI,UAL,B-737-900,D,Unknown bird,0,4,2,9,2013,Night,1900,200,Approach,No Cloud,None,1,1,Small
+MD,KBWI,DAL,A-320,D,Bald eagle,1,4,2,9,2013,Day,3000,,Approach,Some Cloud,None,1,1,Large
+MD,KFDK,WML,LEARJET-60,D,Unknown bird,0,2,2,8,2013,Day,0,120,Take-off run,Overcast,None,2 to 10,1,Small
+MD,W32,BUS,CIRRUS SR 20/22,A,White-tailed deer,0,1,1,8,2013,Night,0,30,Landing Roll,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,8,2013,Day,2,136,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,8,2013,Night,50,130,Approach,Some Cloud,None,1,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Night,100,150,Climb,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Day,11000,261,Descent,No Cloud,None,,1,
+MD,KBWI,AWE,A-320,D,European starling,0,4,2,8,2013,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,TRS,B-737-500,D,Mourning dove,0,4,2,8,2013,Day,0,,Landing Roll,Some Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Dusk,300,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,8,2013,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Night,2500,195,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Day,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Mourning dove,0,4,2,8,2013,Day,0,100,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2013,Day,0,100,Take-off run,No Cloud,None,,1,
+MD,KBWI,AAL,B-737-800,D,Barn swallow,0,4,2,7,2013,Day,0,,Take-off run,Overcast,None,,1,Small
+MD,KBWI,DAL,MD-90-30,D,American kestrel,0,4,2,7,2013,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,American kestrel,0,4,2,7,2013,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,7,2013,Day,0,143,Landing Roll,Some Cloud,None,1,1,Small
+MD,KFDK,NSH,HAWKER-SDLY HS125,B,Unknown bird,1,3,2,7,2013,Day,0,130,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,7,2013,Day,1000,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2013,Day,50,160,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2013,Night,2500,210,Climb,Some Cloud,None,,1,Small
+MD,KHGR,AAY,MD-83,D,Unknown bird,0,4,2,7,2013,Day,75,140,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2013,Day,100,136,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2013,Day,30,130,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Barn swallow,0,4,2,6,2013,Day,100,135,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KFME,BUS,CIRRUS SR 20/22,A,White-tailed deer,1,1,1,6,2013,Night,0,65,Landing Roll,No Cloud,None,2 to 10,1,Large
+MD,KBWI,BUS,BA-125-800,D,Unknown bird,0,3,2,6,2013,Day,3000,,Approach,No Cloud,None,1,1,
+MD,KBWI,DAL,DC-9-30,D,European starling,0,4,2,6,2013,Day,0,,Landing Roll,No Cloud,,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2013,Day,50,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,CPZ,EMB-170,D,European starling,0,4,2,6,2013,Day,0,,Take-off run,Overcast,Rain,11 to 100,11-100,Small
+MD,KDMW,SWA,B-737-700,D,Unknown bird,0,4,2,6,2013,Day,90,145,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2013,Day,0,130,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2013,Night,4000,230,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2013,Day,1350,160,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2013,Day,800,190,Climb,No Cloud,None,1,1,Small
+MD,KBWI,AWE,A-320,D,Unknown bird,0,4,2,5,2013,Dawn,100,144,Approach,Some Cloud,Rain,,1,Small
+MD,KBWI,AWE,A-319,D,European starling,0,4,2,5,2013,Night,50,130,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2013,Day,1000,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2013,Night,3000,190,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2013,Night,5000,240,Climb,Overcast,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2013,Night,600,140,Approach,No Cloud,None,,1,Small
+MD,2W6,GOV,AEROS SA365,F,Unknown bird,1,2,2,5,2013,Night,1000,100,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,5,2013,Night,0,175,Take-off run,Overcast,Rain,,1,Medium
+MD,KBWI,DAL,A-320,D,Unknown bird,0,4,2,5,2013,Night,950,,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,ACA,DHC8 DASH 8,C,European starling,0,3,2,5,2013,Day,0,,Landing Roll,Overcast,Rain,1,1,Small
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,4,2013,Night,,,Approach,No Cloud,None,,1,
+MD,KFDK,BUS,RKWL CMDR114,A,Canada goose,1,1,1,4,2013,Day,2000,150,Climb,No Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2013,Day,100,140,Climb,Some Cloud,None,1,1,Small
+MD,KMTN,BUS,BE-400 BJET,D,Herring gull,0,2,2,4,2013,Day,0,,Landing Roll,Overcast,Rain,,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Ring-billed gull,0,4,2,4,2013,Day,10,135,Approach,Overcast,Rain,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2013,Night,1000,130,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,4,2013,Night,1200,140,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,AWE,A-319,D,Unknown bird,0,4,2,4,2013,Night,2000,180,Approach,No Cloud,None,,1,Small
+MD,KFME,BUS,SOCATA TB-20,A,Unknown bird,1,1,1,3,2013,Day,1400,135,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,AWE,A-320,D,Unknown bird,0,4,2,3,2013,Day,200,165,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,3,2013,Night,20,130,Approach,,,1,1,Medium
+MD,2W6,GOV,AEROS SA365,F,Turkey vulture,0,2,2,3,2013,Day,1600,120,Approach,No Cloud,None,2 to 10,1,Large
+MD,MD71,PHM,EC135,F,Canada goose,0,2,2,3,2013,Night,700,80,Approach,Overcast,None,2 to 10,1,Large
+MD,KVKX,BUS,PA-34 SENECA,A,Unknown bird,0,1,2,2,2013,Night,1500,110,Approach,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,1,2013,Day,2000,170,Approach,No Cloud,None,,1,Medium
+MD,2W6,BUS,C-172,A,Brown pelican,0,1,1,1,2013,Day,0,50,Take-off run,Some Cloud,None,1,1,Large
+MD,KBWI,JZA,DHC8 DASH 8,C,Red-shouldered hawk,0,3,2,11,2012,Day,0,,Take-off run,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,11,2012,Day,500,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,AWE,B-757-200,D,American crow,0,4,2,11,2012,Dawn,600,277,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2012,Night,3000,210,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2012,Day,3000,210,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2012,Night,2000,250,Climb,No Cloud,None,,1,Medium
+MD,KBWI,AWE,A-319,D,Unknown bird,0,4,2,11,2012,Night,1500,170,Approach,No Cloud,None,,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,11,2012,Night,1850,200,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,UCA,DHC8 DASH 8,C,Herring gull,1,3,2,10,2012,Day,3000,170,Approach,Overcast,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Dark-eyed junco,0,4,2,10,2012,Night,1000,175,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,American robin,0,4,2,10,2012,Night,9000,245,Climb,No Cloud,None,,1,Small
+MD,KMTN,PHM,EC135,F,Unknown bird,0,2,2,10,2012,Night,300,70,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Turkey vulture,1,4,2,10,2012,Day,1200,145,Approach,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2012,Night,10,150,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,BUS,DA-2000,D,Mourning dove,0,3,2,10,2012,Dusk,0,75,Take-off run,No Cloud,None,11 to 100,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2012,,1000,120,Approach,No Cloud,None,1,1,Small
+MD,KSBY,PDT,DHC8 DASH 8,C,American kestrel,0,3,2,10,2012,Day,0,,Landing Roll,Overcast,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,1,4,2,9,2012,Night,3000,250,Approach,Some Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2012,Night,2500,210,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2012,,200,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2012,Night,1350,170,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2012,Night,1700,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2012,Night,4000,250,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-800,D,Unknown bird,0,4,2,9,2012,Night,5700,250,Approach,No Cloud,None,1,1,Medium
+MD,MD71,PHM,EC135,F,Unknown bird,0,2,2,9,2012,,900,120,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Microbats,0,4,2,9,2012,Dusk,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,A-320,D,Unknown bird,0,4,2,9,2012,Night,5000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,9,2012,Day,2500,220,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2012,Night,500,136,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2012,,4000,220,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2012,Day,200,135,Approach,No Cloud,None,1,1,Small
+MD,2W6,BUS,C-172,A,Unknown bird,1,1,1,8,2012,Day,0,60,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,DAL,B-757-200,D,Barn swallow,0,4,2,8,2012,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2012,Day,100,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2012,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2012,Day,1500,146,Approach,No Cloud,None,,1,Small
+MD,KBWI,UAL,B-737-800,D,European starling,0,4,2,8,2012,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,8,2012,Day,0,110,Landing Roll,Overcast,None,2 to 10,2 to 10,Small
+MD,KBWI,DAL,B-737-800,D,Unknown bird,0,4,2,8,2012,Day,50,148,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Barn swallow,0,4,2,8,2012,Day,20,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2012,Day,2300,220,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2012,Day,200,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,European starling,0,4,2,8,2012,Day,0,120,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2012,Day,1000,165,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,8,2012,Day,0,120,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,UCA,DHC8 DASH 8,C,Unknown bird,0,3,2,7,2012,Day,500,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2012,Day,0,130,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,TRS,B-717-200,D,Sparrows,0,4,2,7,2012,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KCGE,BUS,C-182 SKYLAN,A,Mourning dove,0,1,1,7,2012,Day,10,65,Approach,Overcast,"Fog, Rain",11 to 100,1,Small
+MD,KBWI,BUS,HAWKER 800,D,European starling,0,3,2,7,2012,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KHGR,UNK,CITATION EXL,D,Barn swallow,0,3,2,7,2012,Day,200,120,Approach,No Cloud,None,11 to 100,1,Small
+MD,KHGR,UNK,BE-50 TWIN BONANZA,A,Barn swallow,0,2,2,7,2012,Day,150,110,Climb,No Cloud,None,11 to 100,1,Small
+MD,KHGR,UNK,PA-28,A,Barn swallow,0,1,1,7,2012,Day,100,90,Climb,No Cloud,None,11 to 100,1,Small
+MD,KBWI,AAL,MD-83,D,Unknown bird,0,4,2,7,2012,Day,1000,200,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2012,Day,100,140,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Red-tailed hawk,0,4,2,7,2012,Day,0,,Take-off run,No Cloud,None,,1,Medium
+MD,KFME,BUS,PA-28,A,White-tailed deer,1,1,1,7,2012,Day,0,,Landing Roll,,,1,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2012,Day,200,131,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,BAW,B-767-300,D,European starling,0,4,2,6,2012,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,DAL,MD-88,D,European starling,0,4,2,6,2012,Day,0,,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,6,2012,Day,0,,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,6,2012,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2012,Day,10,,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2012,Day,300,145,Approach,No Cloud,None,1,1,Small
+MD,KBWI,BUS,CL-601/604,D,Cedar waxwing,0,3,2,5,2012,Dusk,4000,250,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2012,Day,2800,200,Climb,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2012,Day,0,95,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2012,Day,2000,170,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2012,Night,50,,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2012,Night,2500,160,Approach,Some Cloud,Rain,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2012,Night,1500,150,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,JBU,EMB-190,D,Unknown bird,0,4,2,5,2012,Day,20,140,Approach,Overcast,None,,1,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2012,Night,2000,210,Approach,No Cloud,None,,1,
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,4,2012,Dawn,800,147,Approach,Some Cloud,Rain,,1,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,European starling,0,3,2,4,2012,Day,0,,Landing Roll,,,,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,4,2012,Day,2,145,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2012,Day,200,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2012,Day,0,150,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2012,Day,0,130,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2012,Day,2000,250,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2012,Day,4000,250,Approach,Some Cloud,Fog,1,1,Medium
+MD,KBWI,PDT,DHC8 DASH 8,C,Unknown bird,1,3,2,3,2012,Day,,,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Long-tailed duck,1,4,2,3,2012,Night,1800,200,Climb,,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2012,Day,800,135,Approach,No Cloud,None,2 to 10,1,Large
+MD,KBWI,BUS,GULFSTREAM 200,D,Herring gull,0,3,2,3,2012,Day,100,,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,1,2012,Day,0,100,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-90-30,D,Unknown bird,0,4,2,1,2012,Day,2000,180,Approach,Some Cloud,None,2 to 10,1,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,1,2012,Day,0,135,Take-off run,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,12,2011,Night,0,130,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Tundra swan,1,4,2,11,2011,Night,1900,165,Approach,No Cloud,None,11 to 100,2 to 10,Large
+MD,KHGR,BUS,BE-300 KING,C,Unknown bird,0,1,2,11,2011,Day,0,80,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,11,2011,Night,5000,250,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2011,Night,142,130,Approach,No Cloud,None,,1,Small
+MD,KBWI,AWE,B-737-300,D,Unknown bird,0,4,2,11,2011,Night,2500,170,Approach,No Cloud,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2011,Night,5300,230,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,AWE,B-737-400,D,Red fox,0,4,2,11,2011,Night,0,,Take-off run,No Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2011,Night,4000,170,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Night,1500,138,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Double-crested cormorant,1,4,2,10,2011,Day,2650,210,Approach,Overcast,None,2 to 10,1,Large
+MD,KBWI,AWE,B-737-400,D,Unknown bird,0,4,2,10,2011,Day,100,150,Approach,Some Cloud,,1,1,Small
+MD,KFDK,BUS,CIRRUS SR 20/22,A,White-tailed deer,0,1,1,10,2011,Night,0,,Landing Roll,,,,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2011,Night,400,135,Approach,No Cloud,None,1,1,Small
+MD,KESN,BUS,GULFAERO IV,D,Gulls,0,4,2,10,2011,Day,20,130,Climb,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Night,7000,250,Climb,Some Cloud,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Day,1850,180,Approach,Overcast,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Day,1500,220,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Night,1000,140,Approach,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Eastern meadowlark,0,4,2,10,2011,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Night,8500,250,Climb,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2011,Night,1500,160,Approach,No Cloud,None,,1,Small
+MD,KMTN,PHM,EC135,F,Unknown bird,0,2,2,10,2011,Night,1000,120,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2011,Night,500,140,Approach,Some Cloud,None,,1,Small
+MD,MD71,PHM,EC135,F,Unknown bird,0,2,2,10,2011,Night,1000,75,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Peregrine falcon,0,4,2,10,2011,Day,0,,Take-off run,Overcast,None,,1,Medium
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,9,2011,Night,500,160,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,9,2011,Night,5000,250,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2011,Night,200,138,Approach,Some Cloud,None,,1,Small
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,9,2011,Day,1400,160,Approach,,None,1,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2011,Day,200,133,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,9,2011,Day,4000,250,Approach,Overcast,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2011,Day,200,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2011,Night,3000,230,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,JBU,EMB-190,D,Unknown bird,0,4,2,8,2011,Day,150,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2011,Day,1000,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2011,Night,1000,139,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2011,Day,0,,Take-off run,Some Cloud,None,11 to 100,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,8,2011,Day,300,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2011,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KBWI,DAL,MD-88,D,European starling,0,4,2,8,2011,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,AWE,A-320,D,Unknown bird,0,4,2,8,2011,Day,0,160,Take-off run,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,AWE,A-310,D,Unknown bird,0,4,2,8,2011,Day,1000,140,Climb,No Cloud,,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2011,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,8,2011,Day,,,Approach,Overcast,None,,2 to 10,Small
+MD,KBWI,TRS,B-737-700,D,American kestrel,0,4,2,8,2011,Day,,,Approach,Some Cloud,None,,1,Small
+MD,KBWI,TRS,B-717-200,D,American kestrel,0,4,2,8,2011,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,DAL,DC-9-50,D,Eastern meadowlark,0,4,2,8,2011,Day,,,Climb,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Barn swallow,0,4,2,8,2011,Day,0,,Landing Roll,,,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2011,Night,100,135,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2011,Day,0,100,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,7,2011,Night,1000,150,Approach,No Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2011,Day,50,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,1ASQ,CRJ700,D,Barn swallow,0,4,2,7,2011,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2011,Night,5,130,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,UPS,B-767-300,D,Eastern meadowlark,0,4,2,7,2011,Dawn,3000,160,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Swallows,0,4,2,7,2011,Day,0,110,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Sparrows,0,4,2,7,2011,Day,7,134,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KHGR,BUS,MD-88,D,Unknown bird,0,4,2,6,2011,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Eastern meadowlark,0,4,2,6,2011,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2011,Day,0,100,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Purple martin,0,4,2,6,2011,Day,2000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,6,2011,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,American robin,0,4,2,6,2011,,0,,Landing Roll,No Cloud,None,,1,Small
+MD,3W3,BUS,C-172,A,Osprey,1,1,1,6,2011,Day,200,65,Approach,Some Cloud,None,1,1,Large
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,6,2011,,,,Arrival,,,,1,
+MD,KBWI,UAL,A-320,D,European starling,0,4,2,6,2011,Day,0,120,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KFME,BUS,C-310,A,Unknown bird,0,2,2,5,2011,Day,,,Climb,Some Cloud,None,,1,
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,5,2011,Day,50,155,Climb,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,AAL,MD-83,D,European starling,0,4,2,5,2011,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,DAL,B-737-800,D,Unknown bird,0,4,2,5,2011,Day,200,140,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2011,Day,0,110,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2011,Dusk,200,150,Climb,,,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2011,Night,4200,230,Approach,No Cloud,None,,1,Medium
+MD,KBWI,AWE,A-321,D,Unknown bird,0,4,2,5,2011,Night,800,160,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,5,2011,Night,1000,135,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2011,Day,10,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2011,Night,3000,210,Approach,No Cloud,None,1,1,Small
+MD,KBWI,KAP,C-402,A,American kestrel,0,2,2,4,2011,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2011,Day,0,140,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,B-737-800,D,American kestrel,0,4,2,4,2011,Day,0,,Landing Roll,,,,1,Small
+MD,KBWI,AWE,B-757-200,D,Unknown bird,0,4,2,4,2011,Night,1100,135,Approach,Overcast,,,1,Large
+MD,KBWI,BUS,BE-400 BJET,D,American kestrel,1,2,2,3,2011,Day,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,PDT,DHC8 DASH 8,C,Ring-billed gull,0,3,2,3,2011,Day,,,Climb,Some Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2011,Night,2150,200,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Mourning dove,0,4,2,3,2011,Day,0,135,Landing Roll,Overcast,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,2,2011,Dawn,2000,195,Climb,Overcast,None,11 to 100,1,
+MD,KBWI,AAL,MD-82,D,American pipit,0,4,2,2,2011,Day,,,Approach,Some Cloud,None,,2 to 10,Small
+MD,KBWI,UAL,B-757-200,D,European starling,0,4,2,12,2010,Day,0,,Take-off run,Overcast,Snow,,11-100,Small
+MD,KBWI,SWA,B-737-700,D,Blackbirds,0,4,2,12,2010,Day,100,128,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,11,2010,Night,5500,250,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2010,Night,2000,210,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2010,Night,7500,250,Descent,No Cloud,None,1,1,Medium
+MD,KFDK,GOV,AEROS SA365,F,White-tailed deer,0,2,2,11,2010,Night,3,28,Approach,Some Cloud,Rain,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Night,4000,210,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Day,200,135,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Night,2500,210,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Day,500,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2010,Night,200,140,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Night,300,130,Approach,No Cloud,None,,1,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2010,Day,5000,250,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2010,Night,4000,200,Approach,No Cloud,None,,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,9,2010,Dawn,300,,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,TRS,B-737-700,D,American kestrel,0,4,2,9,2010,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,AAL,MD-83,D,Unknown bird,0,4,2,9,2010,Night,4000,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,9,2010,Day,200,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2010,Day,10,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,9,2010,Day,3000,210,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2010,Night,2500,220,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2010,,3100,200,Approach,Overcast,,1,1,
+MD,KBWI,JBU,EMB-190,D,Barn swallow,0,4,2,8,2010,Day,0,120,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Chimney swift,0,4,2,8,2010,Day,1500,245,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2010,Night,2400,215,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,8,2010,Day,100,134,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2010,Night,0,140,Take-off run,Some Cloud,None,,1,Small
+MD,KHGR,BUS,CITATION MUSTANG 510,D,American kestrel,0,2,2,8,2010,Day,0,,Landing Roll,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2010,Day,0,100,Take-off run,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2010,Night,2000,195,Climb,No Cloud,,,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,8,2010,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2010,Day,0,120,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Eastern meadowlark,0,4,2,8,2010,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,DAL,DC-9,D,Barn swallow,0,4,2,8,2010,Day,0,,Take-off run,Overcast,None,,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,8,2010,,,,Approach,,,,1,
+MD,KBWI,SWA,B-737-700,D,Blackbirds,0,4,2,7,2010,Day,300,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2010,Night,300,170,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,7,2010,Day,0,100,Landing Roll,Some Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,7,2010,Night,0,75,Landing Roll,,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2010,Day,0,100,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,EGF,EMB-145,D,Unknown bird,0,3,2,7,2010,Night,200,125,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2010,Day,1000,142,Approach,No Cloud,None,,1,Small
+MD,KMTN,BUS,PA-60 601,A,Unknown bird,1,2,2,7,2010,Day,75,85,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2010,Day,0,100,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2010,Day,20,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2010,Day,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,American kestrel,0,4,2,7,2010,Day,0,143,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-88,D,American kestrel,0,4,2,7,2010,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,DAL,DC-9-40,D,Unknown bird,0,4,2,7,2010,Day,400,140,Approach,No Cloud,,,1,
+MD,KBWI,JBU,EMB-190,D,Unknown bird,0,4,2,6,2010,Day,1000,180,Climb,No Cloud,None,,1,Medium
+MD,KFDK,BUS,PA-44 SEMINOLE,A,White-tailed deer,1,2,2,6,2010,Day,0,30,Take-off run,No Cloud,None,2 to 10,1,Large
+MD,KBWI,PDT,DHC8 DASH 8,C,Unknown bird,0,3,2,6,2010,Day,1000,135,Climb,Some Cloud,None,,1,
+MD,KBWI,TRS,B-737-700,D,European starling,0,4,2,5,2010,Day,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,5,2010,Day,4000,250,Approach,No Cloud,None,1,1,Small
+MD,KBWI,JBU,EMB-190,D,Unknown bird,0,4,2,5,2010,Day,0,149,Take-off run,Overcast,,,1,
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2010,Night,3000,220,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,CHQ,EMB-145,D,Unknown bird,0,3,2,5,2010,Day,0,140,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2010,Day,100,140,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2010,Day,150,200,Climb,Overcast,Rain,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,American robin,0,4,2,5,2010,Day,10,150,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Killdeer,0,4,2,5,2010,Day,1,150,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2010,Day,1500,190,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,5,2010,Day,50,145,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2010,Day,1700,160,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,DAL,MD-88,D,American robin,0,4,2,5,2010,,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,AWE,B-747-400,D,Unknown bird,0,5,4,5,2010,Night,300,145,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2010,Day,100,129,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,KAP,C-402,A,American kestrel,0,2,2,4,2010,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2010,Day,3150,235,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,TRS,B-717-200,D,American kestrel,0,4,2,4,2010,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,ABX,B-767-200,D,Unknown bird,0,4,2,4,2010,Dawn,4000,220,Climb,,,,1,Medium
+MD,KHGR,BUS,C-208,C,American kestrel,0,2,1,3,2010,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2010,Day,5,135,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Blackbirds,0,4,2,3,2010,Day,100,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,3,2010,Night,3000,250,Approach,No Cloud,None,,1,Small
+MD,KFDK,BUS,PA-31 NAVAJO,A,Red fox,0,2,2,3,2010,Night,0,80,Take-off run,No Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-700,D,Red fox,0,4,2,3,2010,Dusk,0,,Landing Roll,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-700,D,Gulls,0,4,2,2,2010,Day,30,125,Approach,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Gulls,0,4,2,2,2010,Day,0,,Landing Roll,Overcast,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Gulls,0,4,2,2,2010,Day,0,130,Landing Roll,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,AWE,A-319,D,Foxes,0,4,2,1,2010,Night,0,,Landing Roll,Some Cloud,None,,1,Large
+MD,KBWI,NWA,DC-9-30,D,Red-tailed hawk,0,4,2,1,2010,Day,100,,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,1,2010,Day,0,80,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,NWA,DC-9,D,Hawks,0,4,2,1,2010,Day,0,140,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,BUS,CITATIONJET,D,Herring gull,1,2,2,12,2009,Day,800,150,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,American pipit,0,4,2,12,2009,Day,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,TRS,B-717-200,D,Snow goose,1,4,2,12,2009,Night,4000,220,Climb,,,11 to 100,2 to 10,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,12,2009,Day,30,140,Climb,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,AAL,MD-80,D,Unknown bird,0,4,2,11,2009,Dusk,300,135,Approach,Overcast,None,11 to 100,1,Medium
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,11,2009,Night,1000,200,Climb,No Cloud,None,,1,Large
+MD,KBWI,AWE,EMB-190,D,Unknown bird,0,4,2,11,2009,Night,2500,210,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,ABX,B-767-200,D,Unknown bird,0,4,2,11,2009,Day,,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2009,Dusk,4000,250,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2009,Night,3500,210,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2009,Night,3500,230,Descent,No Cloud,None,,1,Medium
+MD,KBWI,WML,LEARJET-35,D,Unknown bird,0,3,2,10,2009,Night,1500,200,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,10,2009,Night,6200,250,Descent,No Cloud,None,1,1,Medium
+MD,KBWI,TRS,B-737-700,D,Unknown bird,0,4,2,10,2009,Night,1800,200,Climb,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2009,Night,2500,170,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2009,Night,5000,250,Descent,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2009,Night,3000,190,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,10,2009,Night,6500,,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2009,Day,75,,Approach,Overcast,Rain,2 to 10,2 to 10,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,10,2009,Night,,,Approach,,,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2009,Night,3000,210,Climb,No Cloud,None,,1,Medium
+MD,KHGR,BUS,CITATION X,D,Tree swallow,0,3,2,10,2009,Day,0,,Landing Roll,Overcast,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2009,Day,0,100,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2009,Day,400,140,Approach,Some Cloud,None,,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,9,2009,Night,,135,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2009,Night,1200,135,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,AWE,EMB-190,D,Unknown bird,0,4,2,9,2009,Night,2000,,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2009,Day,2000,165,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2009,Night,3000,210,Approach,Some Cloud,None,,1,Medium
+MD,KHGR,PVT,LEARJET-35,D,Tree swallow,0,3,2,9,2009,Day,0,,Landing Roll,No Cloud,None,,2 to 10,Small
+MD,W32,BUS,PA-34 SENECA,A,White-tailed deer,1,1,2,9,2009,Night,0,50,Landing Roll,Overcast,None,2 to 10,1,Large
+MD,KBWI,UPS,A-300,D,Bobolink,0,4,2,9,2009,Night,200,130,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,9,2009,Day,200,132,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2009,Day,100,135,,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2009,Day,200,135,Approach,Overcast,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Ring-billed gull,0,4,2,8,2009,Day,50,145,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,KAP,C-402,A,Unknown bird,0,2,2,8,2009,Day,500,120,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2009,Day,1000,135,Approach,Some Cloud,None,1,1,Small
+MD,KHGR,BUS,C-208,C,American kestrel,0,2,1,8,2009,Day,0,,Landing Roll,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,House sparrow,1,4,2,8,2009,Day,500,135,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2009,Day,0,95,Take-off run,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2009,Day,0,110,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Barn swallow,0,4,2,8,2009,Day,0,130,Take-off run,Overcast,None,,2 to 10,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,Unknown bird,0,3,2,8,2009,Day,500,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,EGF,EMB-145,D,Mourning dove,0,3,2,8,2009,Day,,,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2009,Day,800,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2009,Night,2400,170,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2009,Day,0,95,Take-off run,No Cloud,None,2 to 10,1,Small
+MD,KHGR,BUS,C-208,C,Barn swallow,0,2,1,7,2009,Day,0,80,Landing Roll,Some Cloud,None,2 to 10,1,Small
+MD,KHGR,BUS,C-550,D,European starling,0,3,2,7,2009,Dusk,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Eastern meadowlark,0,4,2,7,2009,Night,0,130,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Great blue heron,0,4,2,7,2009,Day,100,130,Approach,Some Cloud,None,1,2 to 10,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2009,Day,100,130,Approach,Some Cloud,Rain,1,1,Small
+MD,KBWI,UAL,A-320,D,Barn swallow,0,4,2,7,2009,Day,0,150,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,AWE,B-737-300,D,Barn swallow,0,4,2,7,2009,Day,0,130,Landing Roll,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2009,Day,200,135,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,1,4,2,7,2009,Day,25,200,Climb,,,11 to 100,11-100,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2009,Day,500,145,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,American kestrel,0,4,2,7,2009,Day,0,100,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757-200,D,European starling,0,4,2,6,2009,Day,0,,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2009,Day,400,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2009,Day,300,160,Climb,Overcast,Rain,1,1,Small
+MD,KBWI,TRS,B-717-200,D,European starling,0,4,2,6,2009,Day,0,60,Take-off run,Some Cloud,None,1,2 to 10,Small
+MD,KBWI,COM,CRJ100/200,D,European starling,0,3,2,6,2009,Day,0,,Take-off run,Some Cloud,None,,2 to 10,Small
+MD,KBWI,NWA,A-320,D,Gulls,0,4,2,5,2009,,0,,Take-off run,,,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Sparrows,0,4,2,5,2009,Day,30,130,Climb,No Cloud,None,1,1,Small
+MD,KBWI,NWA,DC-9-50,D,Unknown bird,0,4,2,5,2009,,,240,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2009,Night,1900,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2009,Day,0,130,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2009,Night,3000,220,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,UAL,B-737-300,D,Unknown bird,0,4,2,5,2009,Day,10,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2009,Night,1000,300,Climb,No Cloud,None,,1,Small
+MD,KBWI,UPS,A-300,D,Unknown bird,0,4,2,5,2009,Night,5000,250,Climb,,,,1,Small
+MD,KBWI,PDT,DHC8 DASH 8,C,White-tailed deer,0,3,2,5,2009,Night,,,Approach,,,1,,Large
+MD,KBWI,SWA,B-737-300,D,White-tailed deer,1,4,2,4,2009,Day,0,,Landing Roll,,None,,1,Large
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,4,2009,Night,4000,210,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2009,Day,50,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,NWA,DC-9-50,D,Hawks,0,4,2,4,2009,,,,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2009,Night,4000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2009,Night,200,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2009,Night,2000,180,Approach,Some Cloud,None,2 to 10,2 to 10,Medium
+MD,KNHK,BUS,BE-300 KING,C,Gulls,0,1,2,4,2009,Day,0,100,Take-off run,Overcast,None,11 to 100,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2009,Night,6500,235,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2009,Night,4000,210,Approach,No Cloud,None,,11-100,Medium
+MD,KHGR,PVT,LEARJET-35,D,Unknown bird,1,3,2,3,2009,Day,50,140,Climb,Overcast,Rain,11 to 100,1,Medium
+MD,W29,BUS,CIRRUS SR 20/22,A,White-tailed deer,1,1,1,3,2009,Night,0,40,Landing Roll,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Blackbirds,0,4,2,3,2009,Day,800,145,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2009,Night,2000,180,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2009,Day,1000,210,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,2,2009,Day,,,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,12,2008,Night,2500,210,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Ring-billed gull,0,4,2,12,2008,Day,10,135,Approach,Overcast,,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,11,2008,Night,50,150,Climb,Overcast,Fog,,1,Large
+MD,KBWI,PDT,DHC8 DASH 8,C,Ring-billed gull,0,3,2,11,2008,Day,0,,Landing Roll,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2008,Dusk,4000,250,Descent,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2008,Night,1000,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Ducks,0,4,2,11,2008,Day,9000,250,Climb,No Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2008,Night,2850,240,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,10,2008,Night,1500,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2008,Night,3500,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,BUS,CIRRUS SR 20/22,A,Cooper's hawk,0,1,1,10,2008,Night,0,,Landing Roll,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-500,D,Unknown bird,0,4,2,10,2008,Night,8800,245,Descent,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2008,Night,3000,200,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2008,Night,1000,130,Approach,No Cloud,None,1,1,Medium
+MD,KFDK,BAL,PA-28,A,Unknown bird,1,1,1,9,2008,Day,1300,100,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2008,Night,6000,250,Descent,No Cloud,None,,1,Small
+MD,KBWI,BUS,LEARJET-45,D,Unknown bird,0,3,2,9,2008,Night,200,175,Climb,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2008,Night,1000,170,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2008,Night,7000,250,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2008,Day,800,136,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2008,Day,300,130,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2008,Night,4000,210,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Barn swallow,0,4,2,8,2008,Day,100,130,,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2008,Day,200,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,AJM,A-321,D,Unknown bird,0,4,2,8,2008,Night,2300,180,Approach,No Cloud,None,,1,Medium
+MD,KBWI,GWY,A-320,D,Barn swallow,0,4,2,8,2008,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2008,Day,50,130,Approach,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2008,Night,600,135,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2008,Day,10,125,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2008,Day,800,165,Climb,No Cloud,None,1,1,Small
+MD,KHGR,BUS,C-441 CONQUE,C,Horned lark,0,2,2,7,2008,Day,0,3,Taxi,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2008,Night,2000,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2008,Day,50,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,BTA,EMB-145,D,Mourning dove,0,3,2,7,2008,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2008,Day,50,145,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,AAL,MD-82,D,European starling,0,4,2,7,2008,Day,100,170,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-400,D,Canada goose,0,4,2,6,2008,Day,,,,Some Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2008,Night,800,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Day,200,170,Climb,No Cloud,None,1,1,Small
+MD,KBWI,UAL,A-319,D,Unknown bird,0,4,2,5,2008,Night,7000,,Approach,,,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Night,2000,210,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Day,10,130,Climb,No Cloud,None,2 to 10,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,5,2008,,,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Night,2400,190,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Dawn,0,135,Take-off run,Overcast,Rain,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Dusk,1500,160,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2008,Day,100,140,Approach,No Cloud,None,,1,Small
+MD,KBWI,PDT,DHC8 DASH 8,C,Ring-billed gull,0,3,2,4,2008,Day,0,,Take-off run,Overcast,Rain,,2 to 10,Medium
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,4,2008,Day,200,130,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2008,Day,0,120,Landing Roll,No Cloud,None,1,1,Small
+MD,KHGR,PVT,C-172,A,Gulls,0,1,1,3,2008,Day,5,54,Approach,No Cloud,None,11 to 100,1,Medium
+MD,KBWI,EGF,EMB-145,D,Canada goose,1,3,2,3,2008,Day,1000,,Approach,,,,2 to 10,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,2,2008,Day,100,130,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,12,2007,Night,1000,135,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,12,2007,Day,500,140,Approach,Overcast,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,12,2007,Night,800,130,Approach,Overcast,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,12,2007,Night,6000,250,Climb,Overcast,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2007,Day,400,130,Approach,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Common loon,0,4,2,11,2007,Day,2000,180,Approach,No Cloud,None,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2007,Night,6000,240,Descent,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Great blue heron,1,4,2,11,2007,Night,,,Approach,,,,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2007,Night,4000,250,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,11,2007,Night,2000,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,American robin,0,4,2,11,2007,Night,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,American robin,0,4,2,11,2007,Night,7000,250,Descent,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2007,Night,2850,210,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,TRS,B-737-700,D,Unknown bird,0,4,2,10,2007,Night,500,132,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,10,2007,Day,0,,Landing Roll,Overcast,Rain,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2007,Night,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,JZA,DHC8 DASH 8,C,Unknown bird,0,3,2,10,2007,,,,Approach,,,,1,Medium
+MD,KBWI,USA,B-737-400,D,Blackbirds,0,4,2,10,2007,Day,200,160,Climb,No Cloud,None,11 to 100,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2007,Night,4500,210,Approach,No Cloud,None,,1,Medium
+MD,KBWI,TRS,B-737-700,D,Unknown bird,0,4,2,10,2007,Night,5000,200,Approach,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-300,D,Mourning dove,0,4,2,10,2007,Day,0,90,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,10,2007,Night,6000,250,Approach,No Cloud,None,,1,Small
+MD,KOXB,BUS,CIRRUS SR 20/22,A,Double-crested cormorant,1,1,1,9,2007,Day,1000,100,Approach,No Cloud,None,2 to 10,1,Large
+MD,KBWI,JZA,DHC8 DASH 8,C,Unknown bird,0,3,2,9,2007,Night,,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2007,Day,4000,220,Climb,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2007,Night,5000,150,Approach,No Cloud,None,,1,Medium
+MD,KESN,BUS,CIRRUS SR 20/22,A,Turkey vulture,0,1,1,9,2007,Day,800,105,Climb,Some Cloud,None,2 to 10,2 to 10,Large
+MD,KBWI,UPS,A-300,D,Perching birds (y),0,4,2,9,2007,Dawn,,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2007,Night,1500,155,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2007,Night,2500,190,,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2007,Night,500,125,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2007,Night,3000,210,Approach,Overcast,None,,1,Small
+MD,KOXB,BUS,PA-32,A,White-tailed deer,1,1,1,9,2007,Night,0,,Take-off run,,,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Tree swallow,0,4,2,9,2007,Day,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2007,Night,3500,250,Approach,No Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,8,2007,Day,150,130,Climb,Some Cloud,Fog,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2007,Day,150,160,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,USA,B-737-400,D,Mourning dove,0,4,2,8,2007,Day,0,140,Take-off run,Some Cloud,None,1,1,Small
+MD,KSBY,BUS,RKWL SHRIKE,A,Unknown bird,1,2,2,7,2007,Day,10,100,Climb,No Cloud,None,11 to 100,2 to 10,Small
+MD,KNHK,BUS,BE-1900,C,Osprey,1,3,2,7,2007,Day,10,100,Approach,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2007,Dawn,500,160,Climb,No Cloud,None,1,1,Small
+MD,KBWI,CHQ,EMB-135,D,Unknown bird,0,3,2,7,2007,Day,800,,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2007,Day,100,135,Approach,Some Cloud,None,Over 100,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2007,Night,2700,160,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,DAL,MD-88,D,Mourning dove,0,4,2,7,2007,Day,,,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,ASH,CRJ900,D,Unknown bird,0,4,2,7,2007,Day,0,,Take-off run,,,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,7,2007,Day,50,130,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,American kestrel,0,4,2,6,2007,Day,0,,Landing Roll,,,,1,Small
+MD,KBWI,BUS,CHALLENGER 300,D,Woodchuck,0,3,2,6,2007,Day,0,,Landing Roll,,,,1,Large
+MD,KMTN,BUS,DA-900,D,Unknown bird,0,3,3,6,2007,Day,,,Approach,Some Cloud,None,1,1,Small
+MD,KESN,BUS,BE-36,A,Turkey vulture,1,1,1,6,2007,Day,1500,150,Approach,No Cloud,None,1,1,Large
+MD,KBWI,UAL,B-737-500,D,European starling,0,4,2,6,2007,Dawn,0,138,Take-off run,Overcast,None,,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2007,Night,4000,220,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2007,Night,500,140,Climb,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2007,Night,2500,210,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2007,Day,,225,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2007,Night,200,200,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2007,Night,3000,210,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2007,Night,500,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2007,Night,3000,160,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,American kestrel,0,4,2,4,2007,Day,0,120,Landing Roll,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2007,Night,1000,145,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2007,Night,4000,250,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,American robin,1,4,2,3,2007,Night,2000,130,Approach,Overcast,Rain,2 to 10,1,Small
+MD,KBWI,BUS,CITATION EXL,D,Unknown bird,1,3,2,3,2007,Night,1000,180,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2007,Day,50,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,2,2007,Day,100,140,Approach,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737,D,White-tailed deer,0,4,2,2,2007,Day,,,Approach,,,2 to 10,,Large
+MD,KBWI,PVT,C-402,A,Herring gull,1,2,2,12,2006,Day,1000,,Approach,Overcast,None,2 to 10,1,Medium
+MD,2W6,PVT,C-172,A,Hawks,0,1,1,12,2006,Day,750,70,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,FRL,DHC8 DASH 8,C,Red fox,0,3,2,11,2006,Dawn,0,,Take-off run,Some Cloud,Fog,1,1,Large
+MD,KBWI,SWA,B-737-300,D,American robin,1,4,2,11,2006,Night,3800,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,MD-88,D,Unknown bird,0,4,2,11,2006,Night,3000,210,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2006,Night,2850,210,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2006,Night,400,130,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2006,Night,3000,250,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2006,Night,1900,210,Climb,Overcast,None,,1,Medium
+MD,KBWI,FFT,A-319,D,Unknown bird,0,4,2,10,2006,Day,,250,Climb,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Canada goose,1,4,2,10,2006,Day,2530,135,Approach,No Cloud,None,,1,Large
+MD,KHGR,UNK,CITATION,D,Eastern meadowlark,0,2,2,10,2006,Day,0,,Take-off run,Some Cloud,None,,1,Small
+MD,KMTN,BUS,GULFSTREAM V,D,Canada goose,1,4,2,10,2006,Night,50,118,Approach,No Cloud,None,,11-100,Large
+MD,KBWI,DHL,B-727-200,D,Unknown bird,0,4,3,9,2006,Night,1000,230,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2006,Night,500,100,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2006,Day,400,145,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2006,Day,1000,140,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2006,Day,10,135,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2006,Night,3000,165,Approach,No Cloud,None,1,1,Small
+MD,KBWI,DAL,MD-88,D,European starling,1,4,2,8,2006,Day,450,,Climb,Some Cloud,None,11 to 100,11-100,Small
+MD,KBWI,DAL,B-737-800,D,Mourning dove,0,4,2,8,2006,Day,0,,Landing Roll,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2006,Day,500,160,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737,D,European starling,0,4,2,8,2006,Day,,,Approach,No Cloud,None,,2 to 10,Small
+MD,KBWI,EGF,EMB-145,D,European starling,0,3,2,8,2006,Day,,,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2006,Night,1500,220,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2006,Night,5000,250,Descent,Some Cloud,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Red fox,0,4,2,5,2006,Night,0,,Take-off run,Some Cloud,None,,1,Large
+MD,KBWI,AAL,B-757-200,D,Unknown bird,0,4,2,5,2006,Day,50,130,Approach,No Cloud,None,,1,Small
+MD,KBWI,DAL,B-737-800,D,American kestrel,0,4,2,5,2006,Day,0,,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,NWA,A-320,D,Unknown bird,0,4,2,3,2006,,,,Approach,,,,1,Medium
+MD,KBWI,NWA,B-757-200,D,Unknown bird,1,4,2,3,2006,Night,,,Approach,,,1,1,Medium
+MD,KBWI,JZA,DHC8 DASH 8,C,Sparrows,0,3,2,12,2005,Day,500,,Climb,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2005,Night,4000,250,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,UCA,BE-1900,C,Gulls,1,3,2,11,2005,Dusk,2000,200,Approach,No Cloud,Rain,2 to 10,1,Medium
+MD,KBWI,FFT,A-319,D,Unknown bird,0,4,2,11,2005,Night,500,,Approach,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,10,2005,Night,1500,180,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,FDX,A-300,D,Unknown bird,1,4,2,10,2005,Night,3850,210,Approach,Some Cloud,None,2 to 10,2 to 10,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2005,Night,4000,250,Climb,Overcast,None,,1,Small
+MD,KBWI,NWA,B-757-200,D,Unknown bird,0,4,2,10,2005,,,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2005,Night,3000,180,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2005,Night,800,135,Approach,Overcast,Rain,1,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,10,2005,Night,4350,,Climb,,,,1,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,10,2005,,,,Approach,,,,1,Medium
+MD,KBWI,BTA,EMB-145,D,Unknown bird,0,3,2,10,2005,Day,500,,Approach,Overcast,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2005,Night,1400,140,Approach,Overcast,None,,1,Medium
+MD,KBWI,DAL,B-737-200,D,Unknown bird,0,4,2,9,2005,Night,2500,160,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2005,Night,2000,210,Climb,No Cloud,None,1,1,Small
+MD,KBWI,DAL,B-737-800,D,European starling,0,4,2,9,2005,Day,25,160,Climb,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2005,Day,200,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,AAL,A-300,D,Unknown bird,0,4,2,9,2005,Night,0,,Landing Roll,Some Cloud,None,,2 to 10,Small
+MD,KBWI,1AWE,B-757-200,D,Unknown bird,0,4,2,8,2005,Day,145,130,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2005,Day,2000,142,Approach,Overcast,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,8,2005,Day,200,140,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2005,Night,100,150,Climb,Some Cloud,None,,1,Small
+MD,KBWI,BUS,PIAGGIO P180,C,Unknown bird,0,2,2,8,2005,Day,600,120,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2005,Night,50,140,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,PDT,DHC8 DASH 8,C,Killdeer,0,3,2,8,2005,Day,0,,Landing Roll,Overcast,Rain,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2005,Night,800,135,Approach,Some Cloud,None,,1,Small
+MD,KBWI,TRS,B-717-200,D,Cliff swallow,0,4,2,8,2005,Day,50,137,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,DAL,MD-80,D,European starling,0,4,2,8,2005,Day,200,,Approach,No Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,USA,B-757-200,D,Killdeer,0,4,2,8,2005,Day,10,126,Climb,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-737-300,D,Unknown bird,0,4,2,8,2005,,4000,230,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2005,Day,100,155,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,8,2005,Day,20,125,Approach,No Cloud,None,11 to 100,11-100,Small
+MD,KBWI,TRS,B-717-200,D,Barn swallow,0,4,2,8,2005,Dusk,0,130,Landing Roll,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,BUS,HAWKER 800,D,Unknown bird,0,3,2,7,2005,Day,0,,Take-off run,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2005,Day,10,135,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2005,Day,10,133,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,6,2005,Day,,,Approach,,,,1,Medium
+MD,KBWI,NWA,DC-9,D,Unknown bird,0,4,2,6,2005,,0,,Landing Roll,,,1,1,Medium
+MD,KSBY,BUS,PILATUS PC12,C,Turkey vulture,0,2,1,6,2005,Day,0,70,Landing Roll,No Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2005,Night,5000,250,Descent,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,5,2005,,0,,Landing Roll,,,,1,Medium
+MD,KBWI,UAL,A-319,D,Unknown bird,0,4,2,5,2005,,0,,Landing Roll,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,European starling,0,4,2,5,2005,Day,10,150,Climb,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2005,Day,0,100,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2005,Night,2500,210,Approach,No Cloud,None,,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,5,2005,Day,1000,135,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2005,Day,2000,190,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2005,Day,10,130,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737,D,European starling,0,4,2,4,2005,Day,0,,Take-off run,Overcast,None,,2 to 10,Small
+MD,KBWI,USA,B-757-200,D,American kestrel,0,4,2,4,2005,Day,0,,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,BUS,BE-200 KING,C,Ring-billed gull,0,2,2,4,2005,Day,,,Approach,Some Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Gulls,1,4,2,4,2005,Night,1700,170,Approach,No Cloud,None,1,1,Medium
+MD,KMTN,OPT,BE-400 BJET,D,Gulls,0,2,2,3,2005,Day,80,98,Approach,Overcast,Rain,11 to 100,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,2,2005,Day,15,145,Climb,Some Cloud,None,11 to 100,1,Medium
+MD,KBWI,SWA,B-737,D,Gulls,0,4,2,2,2005,Day,0,,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Gulls,0,4,2,1,2005,Day,200,180,Climb,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,1,2005,Day,0,120,Landing Roll,,Fog,2 to 10,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,11,2004,Night,10000,250,Climb,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-500,D,Hawks,1,4,2,11,2004,Day,1500,150,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2004,Dusk,3000,230,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,11,2004,Night,1500,,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,11,2004,Night,2500,230,Approach,No Cloud,None,1,1,Small
+MD,KBWI,NWA,B-757-200,D,Unknown bird,0,4,2,11,2004,,7000,,Descent,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,11,2004,Night,3850,250,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-500,D,Rock pigeon,0,4,2,10,2004,Day,100,130,Approach,Overcast,"Fog, Rain",1,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,10,2004,,,,Approach,,,,1,Medium
+MD,KBWI,USA,B-737-400,D,Unknown bird,1,4,2,10,2004,Night,,,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,USA,B-737,D,Gulls,0,4,2,10,2004,Night,50,140,Approach,Overcast,None,1,1,Medium
+MD,KBWI,UAL,A-319,D,Unknown bird,0,4,2,10,2004,,2500,220,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2004,Day,800,180,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2004,Dawn,300,150,Climb,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2004,Day,1000,180,Climb,Some Cloud,,1,1,Large
+MD,KBWI,USA,B-757-200,D,Unknown bird,0,4,2,9,2004,Day,,,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2004,Night,800,125,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2004,Night,3000,210,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-700,D,Bonaparte's gull,0,4,2,9,2004,Day,0,145,Take-off run,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,BUS,C-421,A,Mourning dove,1,2,2,9,2004,Day,,,Approach,Overcast,Rain,2 to 10,2 to 10,Small
+MD,KBWI,USA,B-737-400,D,Unknown bird,0,4,2,9,2004,Day,0,100,Take-off run,Overcast,Rain,1,1,Small
+MD,KBWI,NWA,B-757-300,D,Unknown bird,0,4,2,8,2004,,8000,250,Descent,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2004,Day,300,132,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,FDX,A-310,D,Killdeer,0,4,2,8,2004,Night,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,UAL,B-767-300,D,Unknown bird,0,4,2,8,2004,,600,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,8,2004,Night,300,120,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2004,Night,200,160,Climb,Some Cloud,None,,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,8,2004,Day,0,135,Take-off run,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,8,2004,,0,,Landing Roll,No Cloud,None,,2 to 10,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,8,2004,,0,,Landing Roll,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,European starling,0,4,2,8,2004,Day,0,150,Take-off run,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,NWA,A-320,D,Mourning dove,0,4,2,8,2004,Day,0,,Take-off run,Overcast,Rain,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2004,Dusk,100,135,Approach,No Cloud,None,1,1,Small
+MD,KBWI,AAL,MD-83,D,Red fox,0,4,2,7,2004,Night,0,,Landing Roll,No Cloud,None,,1,Large
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,7,2004,,0,,Take-off run,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2004,Day,0,140,Take-off run,Some Cloud,None,2 to 10,1,Small
+MD,KHGR,PVT,PA-46 MALIBU,A,Red fox,0,1,1,7,2004,Day,0,,Take-off run,Overcast,None,1,,Large
+MD,KBWI,DAL,MD-80,D,Yellow-breasted chat,0,4,2,7,2004,Dawn,0,140,Take-off run,No Cloud,None,2 to 10,1,Small
+MD,KBWI,ABX,DC-9-30,D,Unknown bird,0,4,2,7,2004,Day,0,,Landing Roll,Overcast,None,,2 to 10,Small
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,7,2004,Day,500,110,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2004,Day,0,130,Take-off run,Overcast,None,2 to 10,1,Medium
+MD,KBWI,NWA,DC-9-30,D,Unknown bird,0,4,2,7,2004,,,,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2004,Dusk,50,140,Climb,Some Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,7,2004,,,,Climb,,,,1,Medium
+MD,KBWI,USA,B-737-400,D,European starling,0,4,2,6,2004,Day,0,,Take-off run,No Cloud,None,11 to 100,11-100,Small
+MD,KBWI,AAL,MD-80,D,Ring-billed gull,0,4,2,6,2004,Dusk,0,,Landing Roll,Overcast,None,,1,Medium
+MD,KBWI,NWA,A-320,D,Chimney swift,0,4,2,6,2004,Day,0,135,Landing Roll,No Cloud,None,,1,Small
+MD,KBWI,BUS,GULFAERO III,D,Unknown bird,0,4,2,6,2004,Day,50,140,Approach,Overcast,Fog,,2 to 10,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,6,2004,,,,Approach,,,,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2004,Day,1000,200,Climb,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2004,,3000,170,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2004,Day,2000,210,Approach,No Cloud,None,1,1,Small
+MD,KHGR,BUS,PA-31 NAVAJO,A,Ring-billed gull,0,2,2,4,2004,Day,,,Approach,No Cloud,None,,2 to 10,Medium
+MD,KBWI,BUS,LEARJET-24,B,Unknown bird,0,3,2,4,2004,Night,2000,170,Approach,Overcast,None,,1,Large
+MD,KBWI,AAL,MD-80,D,Barn swallow,0,4,2,4,2004,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,1AWE,B-757-200,D,Unknown bird,0,4,2,4,2004,,3000,230,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2004,Night,3000,230,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737,D,American kestrel,0,4,2,3,2004,Day,0,150,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,AAL,B-757-200,D,Gulls,0,4,2,3,2004,Day,0,130,Take-off run,Overcast,None,2 to 10,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,3,2004,Night,500,250,Approach,No Cloud,None,1,1,Large
+MD,KBWI,BUS,BE-200 KING,C,Ring-billed gull,0,2,2,3,2004,Day,0,,Take-off run,Overcast,Rain,2 to 10,2 to 10,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,Ring-billed gull,0,3,2,3,2004,Day,0,,Take-off run,Overcast,Rain,,1,Medium
+MD,KBWI,1AWE,B-737-200,D,Killdeer,0,4,2,3,2004,,,,,,,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Canada goose,0,4,2,2,2004,Day,1000,145,Approach,No Cloud,None,2 to 10,1,Large
+MD,KBWI,1AWE,B-757-200,D,Rock pigeon,0,4,2,1,2004,Day,300,170,Climb,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,EPS,MU2,C,Gulls,1,2,2,12,2003,Day,700,,Approach,Overcast,Fog,2 to 10,1,Medium
+MD,KESN,NJA,C-560,D,Unknown bird,0,1,2,11,2003,,0,,Landing Roll,,,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2003,Night,2000,150,Approach,No Cloud,None,,1,Medium
+MD,W50,PVT,C-182 SKYLAN,A,White-tailed deer,1,1,1,11,2003,Dusk,,,Approach,,,2 to 10,,Large
+MD,KBWI,JZA,DHC8 DASH 8,C,Ring-billed gull,0,3,2,10,2003,Day,0,,Take-off run,Overcast,Rain,,2 to 10,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2003,Night,1500,150,Approach,No Cloud,None,,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,10,2003,Night,1000,140,Approach,No Cloud,None,,1,Medium
+MD,KOXB,PVT,PA-23-250,A,Canada goose,1,2,2,10,2003,Day,1000,110,Approach,No Cloud,None,11 to 100,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2003,Night,1850,210,Approach,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2003,Night,2500,200,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2003,Day,800,160,Climb,No Cloud,None,,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,10,2003,,400,,Approach,,,,2 to 10,Medium
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,9,2003,Day,0,135,Landing Roll,Overcast,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2003,Day,800,140,Approach,No Cloud,None,,1,Medium
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,9,2003,,1700,180,Approach,,,,1,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,9,2003,,300,,Approach,,,,1,Medium
+MD,KESN,NJA,C-560,D,Gulls,0,1,2,9,2003,,0,40,Take-off run,,,2 to 10,1,Medium
+MD,KBWI,AAL,EMB-135,D,Ring-billed gull,0,3,2,9,2003,Day,0,,Landing Roll,No Cloud,None,,1,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,European starling,1,3,2,9,2003,Day,100,110,Approach,Some Cloud,None,11 to 100,2 to 10,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,9,2003,Day,300,135,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,9,2003,Day,300,140,Approach,Overcast,Rain,1,1,Small
+MD,KBWI,AAL,MD-80,D,Cattle egret,0,4,2,9,2003,Day,0,,Landing Roll,Overcast,Rain,,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,8,2003,,,,Approach,,,,1,Medium
+MD,KBWI,UAL,B-737-300,D,Unknown bird,0,4,2,8,2003,,0,,Take-off run,,,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2003,Dusk,0,80,Landing Roll,No Cloud,None,1,1,Small
+MD,KBWI,TRS,B-717-200,D,Blackbirds,0,4,2,8,2003,Day,100,155,Climb,No Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,DHL,B-727-200,D,Unknown bird,0,4,3,8,2003,Day,0,100,Landing Roll,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,EGF,EMB-135,D,Unknown bird,0,3,2,8,2003,Dawn,0,127,Take-off run,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2003,Day,200,140,Approach,Overcast,None,2 to 10,1,Small
+MD,KMTN,MIL,A-10A,D,Unknown bird,0,3,2,7,2003,Day,,,Landing Roll,No Cloud,None,,1,Medium
+MD,KBWI,TRS,B-717-200,D,Rock pigeon,0,4,2,7,2003,Day,0,140,Take-off run,Overcast,None,11 to 100,2 to 10,Small
+MD,KBWI,USA,B-757-200,D,Mourning dove,1,4,2,7,2003,Day,0,120,Take-off run,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Ducks,1,4,2,7,2003,Night,200,170,Climb,Some Cloud,None,,2 to 10,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2003,Day,0,140,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,7,2003,Day,400,130,Approach,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,7,2003,,0,100,Landing Roll,,,,1,Medium
+MD,KGAI,BUS,C-310,A,White-tailed deer,1,2,2,6,2003,Night,5,,Approach,,,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,6,2003,Day,30,138,Approach,Overcast,,1,1,Small
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,6,2003,Day,100,135,Approach,Overcast,None,1,1,Small
+MD,KBWI,TRS,L-1011,D,Unknown bird,0,4,3,6,2003,Night,300,180,Climb,Some Cloud,Fog,1,1,Large
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,6,2003,,0,,Take-off run,,,,1,Medium
+MD,KMTN,PVT,PA-60 601,A,Black vulture,1,2,2,6,2003,Day,1500,130,Climb,No Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2003,Day,300,145,Approach,No Cloud,None,1,1,Small
+MD,KSBY,EJA,DA-2000,D,Turkey vulture,1,3,2,6,2003,Day,0,70,Take-off run,Overcast,,2 to 10,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2003,Night,200,130,Approach,No Cloud,None,,1,Small
+MD,KGAI,NJA,C-560,D,Canada goose,0,1,2,5,2003,Day,0,100,Landing Roll,Overcast,None,2 to 10,1,Large
+MD,KBWI,1AWE,A-320,D,Unknown bird,0,4,2,5,2003,,,,,,,,1,Small
+MD,KMTN,BUS,LEARJET-35,D,Unknown bird,0,3,2,5,2003,Day,50,120,Approach,Overcast,Fog,2 to 10,2 to 10,Medium
+MD,KBWI,AAL,B-737-800,D,Gulls,0,4,2,5,2003,Day,3000,200,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,BUS,CITATION VI,D,Woodchuck,0,3,2,5,2003,Day,0,,Landing Roll,No Cloud,None,,1,Large
+MD,KBWI,AAL,B-757-200,D,Unknown bird,0,4,2,5,2003,Day,2,120,Approach,Some Cloud,None,,1,Small
+MD,KBWI,LOF,BA-41 JETSTR,C,Unknown bird,0,3,2,5,2003,Day,5,110,Approach,No Cloud,None,,1,Small
+MD,KMTN,BUS,DA-2000,D,Gulls,0,3,2,4,2003,Day,50,130,Approach,No Cloud,None,Over 100,2 to 10,Medium
+MD,KBWI,LOF,BA-41 JETSTR,C,Unknown bird,1,3,2,4,2003,Day,20,102,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,1AWE,A-320,D,Unknown bird,0,4,2,4,2003,Night,2200,230,Climb,Some Cloud,None,,1,Large
+MD,KMTN,BUS,BE-36,A,Unknown bird,1,1,1,4,2003,Day,1500,110,Climb,No Cloud,None,1,1,Large
+MD,KBWI,BAW,B-767-300,D,Gulls,0,4,2,4,2003,Day,,,Approach,Overcast,Fog,2 to 10,2 to 10,Medium
+MD,KBWI,TRS,B-717-200,D,Rock pigeon,0,4,2,3,2003,Day,0,,Take-off run,No Cloud,None,,2 to 10,Small
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,3,2003,Night,4000,180,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,3,2003,Night,800,138,Approach,Some Cloud,None,,1,Small
+MD,KBWI,DAL,B-757-200,D,Gulls,0,4,2,3,2003,Day,30,127,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KSBY,PDT,DHC8 DASH 8,C,White-tailed deer,0,3,2,3,2003,Dawn,0,,Take-off run,,,2 to 10,,Large
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,3,2003,,0,,Take-off run,,,2 to 10,2 to 10,Small
+MD,KBWI,COA,B-777-200,D,Gulls,0,4,2,3,2003,Day,0,,Landing Roll,Some Cloud,None,,1,Medium
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,1,2003,Night,300,130,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,1,2003,,0,,Take-off run,,,,2 to 10,Small
+MD,KBWI,AAL,B-757-200,D,White-tailed deer,1,4,2,11,2002,Night,0,,Landing Roll,Overcast,Rain,,1,Large
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,11,2002,,0,,Landing Roll,,,,1,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,Gulls,0,3,2,11,2002,Night,500,150,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2002,Night,3900,210,Approach,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,11,2002,Night,1000,150,Approach,No Cloud,None,,1,Small
+MD,KBWI,NWA,A-320,D,Unknown bird,1,4,2,11,2002,,3500,250,Climb,,,,1,Medium
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,10,2002,,5800,250,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737,D,Ring-billed gull,0,4,2,10,2002,Day,0,80,Take-off run,Overcast,Rain,,1,Medium
+MD,KBWI,GOV,B-737-700,D,Gulls,0,4,2,10,2002,Day,0,140,Take-off run,Overcast,Rain,2 to 10,1,Medium
+MD,KBWI,AAL,B-737,D,Unknown bird,1,4,2,10,2002,,,,Climb,,,,1,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,10,2002,,,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,10,2002,Day,2500,190,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,1,4,2,10,2002,Night,3000,210,Approach,Some Cloud,None,,1,Large
+MD,KBWI,EGF,SAAB-340,C,Unknown bird,0,3,2,9,2002,Night,1300,180,Approach,No Cloud,None,,2 to 10,Medium
+MD,KBWI,USA,A-320,D,Unknown bird,0,4,2,9,2002,Night,1800,150,Approach,No Cloud,None,1,1,Small
+MD,KBWI,USA,A-320,D,Ring-billed gull,0,4,2,9,2002,Day,100,130,Approach,Overcast,Fog,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2002,Night,5000,230,Climb,No Cloud,None,1,1,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,Ring-billed gull,0,3,2,9,2002,Day,0,,Take-off run,Some Cloud,None,,1,Medium
+MD,KBWI,USA,A-319,D,American robin,0,4,2,8,2002,Day,200,140,Approach,Overcast,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2002,,100,140,Approach,Overcast,None,2 to 10,1,Small
+MD,KBWI,NWA,DC-9-30,D,Unknown bird,0,4,2,8,2002,Day,0,100,Landing Roll,Some Cloud,None,1,1,Medium
+MD,KBWI,AAL,MD-80,D,Crows,0,4,2,8,2002,Day,0,,Landing Roll,Overcast,Rain,,1,Medium
+MD,KBWI,DAL,B-757-200,D,Unknown bird,0,4,2,8,2002,Day,5000,250,Descent,Some Cloud,None,1,1,Small
+MD,KBWI,AAL,MD-80,D,American kestrel,0,4,2,8,2002,Day,0,,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,FDX,A-300,D,Unknown bird,0,4,2,8,2002,Day,800,135,Approach,,,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2002,Day,20,132,Approach,No Cloud,None,1,1,Small
+MD,KBWI,COA,B-737-800,D,Mourning dove,0,4,2,8,2002,Day,10,145,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-300,D,Rock pigeon,0,4,2,8,2002,Day,0,145,Take-off run,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Mourning dove,0,4,2,8,2002,Day,0,,Landing Roll,No Cloud,None,1,1,Small
+MD,KHGR,BUS,C-337,A,Woodchuck,1,1,2,8,2002,Day,0,,Landing Roll,Some Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2002,Night,2000,130,Approach,Overcast,None,1,1,Small
+MD,KBWI,AAL,MD-80,D,Unknown bird,0,4,2,7,2002,,0,,Take-off run,,,,1,Medium
+MD,KBWI,TRS,B-717-200,D,Unknown bird,0,4,2,7,2002,Day,100,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,7,2002,Day,200,140,Approach,Overcast,None,2 to 10,1,Small
+MD,KMTN,BUS,BA-31 JETSTR,C,Unknown bird,1,2,2,6,2002,Day,50,130,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,6,2002,Day,0,135,Take-off run,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,6,2002,,0,,Take-off run,,,,1,Small
+MD,KMTN,MIL,A-10A,D,Unknown bird,0,3,2,6,2002,Day,,,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,AAL,MD-80,D,Unknown bird,0,4,2,5,2002,,3000,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2002,Night,3700,220,Climb,No Cloud,None,1,1,Small
+MD,KBWI,USA,A-320,D,Gulls,0,4,2,5,2002,Day,300,180,Climb,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2002,Night,2000,210,Climb,Overcast,None,,1,Small
+MD,KBWI,AAL,B-757-200,D,Mourning dove,0,4,2,5,2002,Night,2500,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,EGF,EMB-135,D,Unknown bird,0,3,2,5,2002,Day,4000,230,Approach,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2002,Night,1000,130,Approach,No Cloud,None,2 to 10,2 to 10,Small
+MD,KMTN,BUS,BA-125-800,D,Gulls,1,3,2,4,2002,Day,10,123,Climb,No Cloud,None,2 to 10,1,Medium
+MD,KBWI,1AWE,B-757-200,D,Swallows,0,4,2,4,2002,Night,2500,210,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,MRA,C-208,C,Horned grebe,1,2,1,4,2002,Night,146,140,Approach,No Cloud,None,,1,Medium
+MD,KBWI,USC,BE-58  BARON,A,Unknown bird,0,2,2,4,2002,Night,5000,150,Approach,No Cloud,None,,1,Medium
+MD,KBWI,AAL,B-737-800,D,Unknown bird,0,4,2,3,2002,Night,800,160,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,BAW,B-767-300,D,Unknown bird,0,4,2,3,2002,Night,2300,180,Approach,No Cloud,None,,1,Small
+MD,KBWI,USA,A-319,D,Geese,1,4,2,3,2002,Dusk,4000,210,Approach,No Cloud,None,2 to 10,2 to 10,Large
+MD,KMTN,BUS,C-172,A,Gulls,0,1,1,3,2002,Day,20,65,Approach,Some Cloud,None,2 to 10,1,Medium
+MD,KMTN,BUS,GULFAERO IV,D,Gulls,1,4,2,3,2002,Dawn,50,140,Climb,Overcast,Rain,11 to 100,11-100,Medium
+MD,KBWI,LOF,BA-41 JETSTR,C,Unknown bird,0,3,2,3,2002,Day,0,103,Landing Roll,Some Cloud,None,,1,Small
+MD,KBWI,ALO,DHC8 DASH 8,C,Unknown bird,0,3,2,3,2002,Day,50,100,Climb,No Cloud,None,1,1,Medium
+MD,2W2,BUS,C-172,A,Unknown bird,1,1,1,3,2002,Night,1500,120,Descent,Overcast,None,,1,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,3,2002,,,,Approach,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Ring-billed gull,0,4,2,2,2002,Day,0,135,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,NHK,BE-300 KING,C,Black vulture,1,1,2,1,2002,Day,2000,150,Approach,No Cloud,None,1,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,1,4,2,11,2001,Day,0,150,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,11,2001,,,,Approach,,,,1,Medium
+MD,KBWI,1AWE,B-757-200,D,Unknown bird,1,4,2,11,2001,Night,,,Descent,No Cloud,None,,1,Medium
+MD,KBWI,USA,B-737-300,D,White-tailed deer,0,4,2,11,2001,Night,0,,Landing Roll,No Cloud,None,,1,Large
+MD,KBWI,EGF,SAAB-340,C,Unknown bird,0,3,2,11,2001,Night,8300,230,Descent,No Cloud,None,,1,Small
+MD,KBWI,SWA,B-737-700,D,White-tailed deer,1,4,2,10,2001,Dusk,0,,Take-off run,Some Cloud,None,,1,Large
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2001,Night,4000,190,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,10,2001,Night,6000,250,Approach,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,10,2001,Day,,200,Approach,No Cloud,None,1,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,10,2001,,0,,Take-off run,,,,1,Medium
+MD,KBWI,AAL,MD-82,D,Unknown bird,0,4,2,10,2001,Night,500,135,Approach,No Cloud,None,,1,Small
+MD,KBWI,EGF,SAAB-340,C,Unknown bird,0,3,2,9,2001,Night,2500,220,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2001,Night,2000,130,Approach,Some Cloud,None,1,1,Medium
+MD,KMTN,BUS,PA-38 TOMAHAWK,A,Gulls,0,1,1,9,2001,Day,50,80,Climb,Overcast,Rain,2 to 10,1,Medium
+MD,KBWI,AAL,B-727-200,D,Owls,0,4,3,9,2001,Night,800,140,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,NWA,B-757-200,D,Rock pigeon,0,4,2,9,2001,Day,350,120,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,9,2001,,4000,,Climb,,,,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,9,2001,Night,5,130,Approach,Some Cloud,None,1,1,Small
+MD,KBWI,FDX,B-727-200,D,Canada goose,0,4,3,8,2001,Night,50,130,Approach,Some Cloud,None,11 to 100,1,Large
+MD,KBWI,TRZ,B-727-200,D,Canada goose,0,4,3,8,2001,Day,0,,Landing Roll,Some Cloud,None,11 to 100,2 to 10,Large
+MD,KBWI,PDT,DHC8 DASH 8,C,American kestrel,0,3,2,8,2001,Day,0,70,Landing Roll,No Cloud,None,2 to 10,1,Small
+MD,KBWI,EJA,BA-125-800,D,Unknown bird,0,3,2,8,2001,,0,,Landing Roll,,,,1,Medium
+MD,KBWI,ASH,CRJ100/200,D,Unknown bird,0,3,2,8,2001,Day,50,138,Approach,Overcast,None,11 to 100,2 to 10,Small
+MD,KMTN,MIL,A-10A,D,Unknown bird,0,3,2,8,2001,Day,,,Take-off run,,None,,1,Medium
+MD,KBWI,SNK,B-737-700,D,Unknown bird,0,4,2,8,2001,Day,0,130,Take-off run,No Cloud,None,1,1,Medium
+MD,KBWI,1AWE,A-320,D,Unknown bird,0,4,2,8,2001,Dawn,1100,220,Climb,Some Cloud,None,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,8,2001,,16000,,Climb,,,,1,Medium
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,7,2001,Day,0,135,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,7,2001,Day,0,150,Take-off run,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Sparrows,0,4,2,6,2001,Day,10,136,Approach,Overcast,,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,5,2001,,,,Approach,,,1,1,Medium
+MD,KBWI,USA,B-737,D,Blackbirds,0,4,2,5,2001,Day,5,135,Approach,Overcast,Fog,,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2001,Day,1000,135,Approach,Some Cloud,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,5,2001,Night,4000,220,Approach,Some Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2001,Night,2000,170,Approach,No Cloud,None,,1,Small
+MD,KBWI,BUS,DHC8 DASH 8,C,Swallows,0,3,2,5,2001,Dusk,50,100,Approach,No Cloud,None,,1,Small
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,4,2001,Day,,,Approach,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,BLR,BA-31 JETSTR,C,Unknown bird,1,2,2,4,2001,,,,Descent,,,,1,Medium
+MD,KBWI,1AWE,A-320,D,Unknown bird,0,4,2,4,2001,Night,,,Approach,No Cloud,None,,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,4,2001,,,,Approach,,,1,1,Small
+MD,KMTN,PVT,BE-36,A,Gulls,0,1,1,4,2001,Day,0,,Take-off run,Overcast,None,2 to 10,2 to 10,Medium
+MD,KMTN,BUS,IAI ASTRA JT,D,Gulls,0,2,2,4,2001,Day,0,100,Take-off run,Overcast,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,4,2001,Night,4500,250,Descent,No Cloud,None,,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,4,2001,Night,2800,230,Approach,Some Cloud,None,1,1,Large
+MD,KMTN,MIL,A-10A,D,Unknown bird,0,3,2,3,2001,Day,0,150,Landing Roll,Some Cloud,None,1,1,Medium
+MD,KDMW,BUS,LEARJET-31,D,Unknown bird,1,2,2,2,2001,Dawn,60,160,Climb,Some Cloud,,1,1,Small
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,1,2001,Dawn,100,120,Approach,No Cloud,None,,11-100,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,1,2001,Night,2000,180,Approach,,Rain,,1,Small
+MD,KBWI,SWA,B-737-300,D,Canada goose,1,4,2,12,2000,,1000,140,Approach,,,1,1,Large
+MD,KBWI,SWA,B-737-700,D,White-tailed deer,1,4,2,11,2000,Night,0,120,Landing Roll,Some Cloud,None,2 to 10,1,Large
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,10,2000,Day,4500,230,Descent,Overcast,None,2 to 10,1,Medium
+MD,KBWI,SWA,B-737-200,D,Unknown bird,0,4,2,10,2000,Night,4000,220,Descent,No Cloud,None,1,1,Medium
+MD,KBWI,EIN,A-300,D,Unknown bird,0,4,2,10,2000,Night,1000,140,Approach,No Cloud,None,,1,Small
+MD,KSBY,PDT,DHC8 DASH 8,C,White-tailed deer,1,3,2,10,2000,Night,0,100,Landing Roll,No Cloud,None,,1,Large
+MD,KBWI,NWA,A-320,D,Unknown bird,0,4,2,10,2000,,4500,,Descent,,,,1,Medium
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,10,2000,Night,400,140,Approach,No Cloud,None,1,1,Small
+MD,KBWI,1AWE,B-757-200,D,Unknown bird,0,4,2,10,2000,Night,,,Approach,No Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,9,2000,Night,2000,220,Climb,No Cloud,None,,1,Small
+MD,KBWI,USA,B-737-200,D,Unknown bird,0,4,2,9,2000,Night,0,150,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,USA,B-737-200,D,Unknown bird,1,4,2,9,2000,Day,1500,215,Climb,Some Cloud,,,1,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,Unknown bird,0,3,2,9,2000,Night,900,150,Approach,Some Cloud,None,1,1,Medium
+MD,KSBY,PDT,DHC8 DASH 8,C,Unknown bird,0,3,2,9,2000,Night,1000,,Climb,No Cloud,None,,1,Medium
+MD,KBWI,UAL,B-767-300,D,Unknown bird,0,4,2,9,2000,,,,Approach,,,1,1,Medium
+MD,KBWI,AAL,B-727,D,Unknown bird,0,4,3,9,2000,Day,200,140,Approach,Overcast,None,1,1,Small
+MD,KBWI,UAL,A-320,D,Unknown bird,0,4,2,9,2000,Day,500,110,Approach,No Cloud,None,2 to 10,2 to 10,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,European starling,0,3,2,8,2000,Day,50,110,Approach,No Cloud,None,2 to 10,1,Small
+MD,KBWI,SWA,B-737-300,D,Unknown bird,0,4,2,8,2000,Day,3500,220,Approach,No Cloud,None,1,1,Medium
+MD,KBWI,BUS,BE-300 KING,C,Sparrows,0,1,2,8,2000,Day,0,80,Landing Roll,Some Cloud,None,2 to 10,2 to 10,Small
+MD,KBWI,BAW,B-767,D,Unknown bird,0,4,2,8,2000,Day,,,Approach,Some Cloud,None,1,1,Medium
+MD,KBWI,UAL,A-319,D,Unknown bird,0,4,2,8,2000,,,,Approach,,,,1,Medium
+MD,KBWI,COA,MD-80,D,Sparrows,0,4,2,8,2000,Day,0,,Landing Roll,Some Cloud,None,1,1,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2000,Night,200,135,Approach,No Cloud,None,,1,Small
+MD,KBWI,USA,B-737-300,D,Unknown bird,0,4,2,8,2000,Day,0,120,Landing Roll,Overcast,Rain,2 to 10,2 to 10,Small
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,8,2000,Day,0,120,Landing Roll,Overcast,None,2 to 10,1,Small
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,7,2000,,0,,Take-off run,,,2 to 10,2 to 10,Medium
+MD,KBWI,UAL,B-757-200,D,Mourning dove,0,4,2,7,2000,Day,100,180,Climb,Some Cloud,None,,2 to 10,Small
+MD,KBWI,UAL,DC-10-30,D,Unknown bird,0,4,3,7,2000,,0,,Take-off run,,,2 to 10,2 to 10,Medium
+MD,MD99,BUS,C-421,A,White-tailed deer,1,2,2,7,2000,Day,0,50,Landing Roll,No Cloud,None,2 to 10,1,Large
+MD,KHGR,BUS,PA-31 NAVAJO,A,Finches,0,2,2,7,2000,Day,0,,Take-off run,No Cloud,None,,1,Small
+MD,KMTN,BUS,CITATION II,D,American kestrel,0,3,2,6,2000,Day,0,60,Take-off run,Some Cloud,None,,1,Small
+MD,KBWI,SWA,B-737,D,Unknown bird,0,4,2,6,2000,Day,0,,Take-off run,Some Cloud,None,,1,Medium
+MD,KBWI,NWA,DC-9-30,D,Unknown bird,0,4,2,5,2000,,,,Approach,,,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,5,2000,Night,200,138,Approach,No Cloud,,1,1,Medium
+MD,KBWI,UAL,B-757-200,D,Unknown bird,0,4,2,5,2000,,1400,,Approach,,,1,1,Medium
+MD,KBWI,PDT,DHC8 DASH 8,C,Gulls,0,3,2,5,2000,Day,0,110,Take-off run,Some Cloud,None,1,1,Medium
+MD,KBWI,USA,B-737-400,D,Unknown bird,0,4,2,4,2000,Day,100,140,Climb,No Cloud,None,1,1,Small
+MD,KHGR,CHQ,SAAB-340,C,Gulls,1,3,2,4,2000,Day,500,140,Climb,Some Cloud,Rain,2 to 10,2 to 10,Medium
+MD,KBWI,NWA,B-757-200,D,Unknown bird,0,4,2,4,2000,,2500,,Climb,,,1,1,Medium
+MD,KBWI,AMT,L-1011,D,Unknown bird,1,4,3,4,2000,,,,Climb,,,,1,Medium
+MD,KBWI,NWA,DC-9-30,D,Blackbirds,0,4,2,3,2000,Day,600,180,Climb,Overcast,None,2 to 10,2 to 10,Small
+MD,KBWI,USA,A-319,D,Unknown bird,0,4,2,2,2000,Night,0,,Take-off run,No Cloud,None,1,1,Medium
+MD,KBWI,ALO,DHC8 DASH 8,C,Unknown bird,0,3,2,1,2000,Day,5,100,Climb,Overcast,None,1,1,Medium
+MD,KBWI,SWA,B-737-700,D,Unknown bird,0,4,2,1,2000,Day,50,170,Climb,No Cloud,,1,1,Medium
