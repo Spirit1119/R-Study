@@ -1,5 +1,5 @@
 ---
-title: "RiskSpanSkillAssessment_R"
+title: "SkillAssess"
 author: "Joey Li"
 date: "July 18, 2019"
 output: html_document
@@ -21,7 +21,6 @@ attach(df)
 summary(df)
 head(df)
 colnames(df)
-options(scipen=999999999999)
 ```
 
 # REPORT 1: Data by Lender Institution Type
