@@ -1,0 +1,101 @@
+---
+title: "Credit Limit MDP"
+author: "Joey Li"
+date: "July 31, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Data Preparation
+```{r}
+rm(list = ls())
+library(tidyverse)  
+library(cluster)
+library(markovchain)
+
+credit <- read.csv("fidi_carte.csv",header = TRUE)
+credit <- arrange(credit, X)
+credit <- credit[(1:(nrow(credit)/2)),-(11:13)]
+colnames(credit) <- c('No.', 'KEY', 'DATE', 'SCORE', 'STATUS', 'TIME', 'RATING_BEFORE', 'PD_BEFORE', 'BUREAU_SCORE', 'PLAFOND')
+```
+
+# 2. Regroup Status According to PLAFOND
+## 2.1 Use K Means to Decide Groups
+```{r}
+## K Means will find out the best groups according to the data characteristics, instead of manual definition.
+## Where centers = 6, indicates we want the data be devided into 6 groups.
+## And then I store the group number from KNN in the table as LIMITGROUP. 
+LGroup <- kmeans(credit$PLAFOND, centers = 6, nstart = 50)
+print(LGroup)
+credit$LIMITGROUP <- LGroup$cluster
+```
+
+## 2.2 Count Numbers of Good/Bad Under in Limit Group
+```{r}
+## To display the summary table of limit group and status, just use table() funcion.
+table_limit <- credit[,c(5,11)]
+table_limit <- table(table_limit$LIMITGROUP, table_limit$STATUS)
+table_limit
+```
+
+# 3. Regroup Status According to SCORE
+## 3.1 Use K-Means Method to Decide Groups
+```{r}
+## Same as before, I use K means to define groups again, by using centers = 10
+## And then I store the results as SCOREGROUP. 
+SGroup <- kmeans(credit$SCORE, centers = 10, nstart = 50)
+print(SGroup)
+credit$SCOREGROUP <- SGroup$cluster
+```
+
+## 3.2 Count Numbers of Good/Bad in Each Score Group 
+```{r}
+table_score <- credit[,c(5,12)]
+table_score <- table(table_score$SCOREGROUP, table_score$STATUS)
+table_score
+```
+
+# 4. Recongize Default Loss and Output Loss Matrix
+```{r}
+## if default (STATUS == '1), the bank loses the amount of PLAFOND
+## Just use the simple logic clause and assign values directly.
+credit$LOSS[credit$STATUS == '1'] <- -credit$PLAFOND
+
+## Write table as Loss Matrix
+LOSSMATRIX <- with(credit, tapply(LOSS, list(SCOREGROUP, LIMITGROUP), FUN = sum))
+
+colnames(LOSSMATRIX) <- c("Limit1","Limit2","Limit3","Limit4","Limit5","Limit6")
+rownames(LOSSMATRIX) <- c("Score1","Score2","Score3","Score4","Score5","Score6","Score7","Score8","Score9","Score10")
+
+data.frame(LOSSMATRIX)
+```
+
+# 5. Prepare Transition Matrix
+```{r}
+
+
+```
+
+# 6. Try Supervised Marchine Learning Techniques
+```{r}
+library(rpart)
+colnames(credit)
+
+credit_try <- glm(STATUS ~ LIMITGROUP + SCOREGROUP + SCORE + TIME + PD_BEFORE + PLAFOND, 
+                  family = 'binomial', credit)
+summary(credit_try)
+
+fit <- rpart(STATUS ~ LIMITGROUP + SCOREGROUP + SCORE + TIME + RATING_BEFORE + PD_BEFORE + PLAFOND, credit)
+rplot(fit)
+
+```
+
+
+
+
+
+
+
